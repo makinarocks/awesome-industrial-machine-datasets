@@ -22,7 +22,10 @@
 ![](https://img.shields.io/badge/time--series-no-red.svg)
 
 * Miscellaneous  
-![](https://img.shields.io/badge/keyword-gray.svg)
+![](https://img.shields.io/badge/any-gray.svg)
+![](https://img.shields.io/badge/keywords-gray.svg)
+![](https://img.shields.io/badge/you-gray.svg)
+![](https://img.shields.io/badge/want-gray.svg)
 
 
 
