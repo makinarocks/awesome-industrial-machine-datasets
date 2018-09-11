@@ -33,7 +33,7 @@
 
 ### Semicon
 
-* [PHM Data Challenge 18](https://www.phmsociety.org/events/conference/phm/18/data-challenge): Etching tool fault detection (PdM)
+* [PHM Data Challenge 18](https://www.phmsociety.org/events/conference/phm/18/data-challenge): Etching tool fault detection (PdM).  
 ![](https://img.shields.io/badge/sector-semicon-blue.svg)
 ![](https://img.shields.io/badge/labeled-yes-blue.svg)
 ![](https://img.shields.io/badge/time--series-yes-blue.svg)  
