@@ -18,7 +18,7 @@ assert df_header.shape[0] == df_value.shape[0]
 ## Scripts
 |  Name         | Description                   |
 |  ---          |  ---                          |
-| `trans.ipynb` | Processing raw (raw -> proc)  |
+| ``trans.ipynb`` | Processing raw (raw -> proc)  |
 | `eda.ipynb`   | Quick EDA                     |
 
 
