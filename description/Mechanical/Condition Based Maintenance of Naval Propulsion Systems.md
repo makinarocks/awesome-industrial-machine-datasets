@@ -39,27 +39,27 @@ The propulsion system behaviour has been described with this parameters:
 
 #### Variables
 
-A 16-feature vector containing the GT measures at steady state of the physical asset:  
+A 16-feature vector containing the GT measures at steady state of the physical asset:   
 
-1 - Lever position (lp) [ ]
-2 - Ship speed (v) [knots]
-3 - Gas Turbine shaft torque (GTT) [kN m]
-4 - Gas Turbine rate of revolutions (GTn) [rpm]
-5 - Gas Generator rate of revolutions (GGn) [rpm]
-6 - Starboard Propeller Torque (Ts) [kN]
-7 - Port Propeller Torque (Tp) [kN]
-8 - HP Turbine exit temperature (T48) [C]
-9 - GT Compressor inlet air temperature (T1) [C]
-10 - GT Compressor outlet air temperature (T2) [C]
-11 - HP Turbine exit pressure (P48) [bar]
-12 - GT Compressor inlet air pressure (P1) [bar]
-13 - GT Compressor outlet air pressure (P2) [bar]
-14 - Gas Turbine exhaust gas pressure (Pexh) [bar]
-15 - Turbine Injecton Control (TIC) [%]
-16 - Fuel flow (mf) [kg/s]
+1 - Lever position (lp) [ ] 
+2 - Ship speed (v) [knots] 
+3 - Gas Turbine shaft torque (GTT) [kN m] 
+4 - Gas Turbine rate of revolutions (GTn) [rpm] 
+5 - Gas Generator rate of revolutions (GGn) [rpm] 
+6 - Starboard Propeller Torque (Ts) [kN] 
+7 - Port Propeller Torque (Tp) [kN] 
+8 - HP Turbine exit temperature (T48) [C] 
+9 - GT Compressor inlet air temperature (T1) [C] 
+10 - GT Compressor outlet air temperature (T2) [C] 
+11 - HP Turbine exit pressure (P48) [bar] 
+12 - GT Compressor inlet air pressure (P1) [bar] 
+13 - GT Compressor outlet air pressure (P2) [bar] 
+14 - Gas Turbine exhaust gas pressure (Pexh) [bar] 
+15 - Turbine Injecton Control (TIC) [%] 
+16 - Fuel flow (mf) [kg/s] 
 
-- GT Compressor decay state coefficient.
-- GT Turbine decay state coefficient. 
+- GT Compressor decay state coefficient. 
+- GT Turbine decay state coefficient.  
 
 데이터가 사용된 논문 : Integration of Numerical Modeling and Simulation Techniques for the
 Analysis of Towing Operations of Cargo Ships (데이터 소개는 딱히 없음)
