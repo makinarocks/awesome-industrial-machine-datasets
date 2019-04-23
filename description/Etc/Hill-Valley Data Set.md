@@ -1,6 +1,6 @@
 # Hill-Valley Data Set
 
-[data](https://archive.ics.uci.edu/ml/datasets/Hill-Valle)
+[data](https://archive.ics.uci.edu/ml/datasets/Hill-Valley)
 
 This is NOT a manufacturing dataset, but looks good for testing pattern detection methods.
 
@@ -22,21 +22,28 @@ hill-valley classification
 | ------------------- | -------------------- | ----------------- | ---- |
 | 1212                | 101                  | 2                 |      |
 
-class는 2개, nominal
-
 feature : V1~V100, Class (총 101개)
+
+- 100 predictive attributes, 1 goal attribute
+
+- 1-100 : Labeled x##. Floating point values (numeric)
+- 101 : Labeled class. Binary {0,1} representing {valley,hill} (nominal)
+
+number of instance
+
+- training, test 각각 606개씩 해서 1212
 
 Each record represents 100 points on a two-dimensional graph. When plotted in order (from 1 through 100) as the Y co-ordinate, the points will create either a Hill (a “bump” in the terrain) or a Valley (a “dip” in the terrain). 
 
 There are six files, as follows: 
 
-(a) Hill_Valley_without_noise_Training.data 
-(b) Hill_Valley_without_noise_Testing.data 
+(a) Hill_Valley_without_noise_Training.data (class distribution : 305/301)
+(b) Hill_Valley_without_noise_Testing.data (295/311)
 
 These first two datasets (without noise) are a training/testing set pair where the hills or valleys have a smooth transition. 
 
-(c) Hill_Valley_with_noise_Training.data 
-(d) Hill_Valley_with_noise_Testing.data 
+(c) Hill_Valley_with_noise_Training.data (307/299)
+(d) Hill_Valley_with_noise_Testing.data (299/307)
 
 These next two datasets (with noise) are a training/testing set pair where the terrain is uneven, and the hill or valley is not as obvious when viewed closely. 
 

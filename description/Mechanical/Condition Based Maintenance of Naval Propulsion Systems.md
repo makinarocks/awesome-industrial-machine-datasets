@@ -61,5 +61,10 @@ A 16-feature vector containing the GT measures at steady state of the physical a
 - GT Compressor decay state coefficient.  
 - GT Turbine decay state coefficient.   
 
+#### NOTE
+
+- Features are not normalized
+- Each feature vector is a row on the text file (18 elements in each row)
+
 데이터가 사용된 논문 : Integration of Numerical Modeling and Simulation Techniques for the
 Analysis of Towing Operations of Cargo Ships (데이터 소개는 딱히 없음)

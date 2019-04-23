@@ -22,9 +22,11 @@ fault classification
 | ------------------- | -------------------- | ---- | ---- |
 | 1941                | 27                   |      |      |
 
+(Faults.NNA data)
+
 There are 34 fields. The first 27 fields describe some kind of steel plate faults seen in images
 
-The last 7 columns are one hot encoded classes, i.e. if the plate fault is classified as "Stains" there will be a 1 in that column and 0's n the other columns. If you are unfamiliar with one hot encoding, just know that the last seven columns are your class labels.
+The last 7 columns are one hot encoded classes, i.e. if the plate fault is classified as "Stains" there will be a 1 in that column and 0's in the other columns. If you are unfamiliar with one hot encoding, **just know that the last seven columns are your class labels.**
 
 Every dataset record represents a superficial fault of a stainless steel leaf. There are 6 different typologies of
 faults. The fault description is constituted by 27 indicators representing the geometric shape of the fault
@@ -36,6 +38,8 @@ occupies the third position in terms of weighted average, it is the first of the
 base classifier (Arcing, Boosting) but rather, uses the available base classifiers. 
 
 #### Variable
+
+27 Independent variables
 
 X_Minimum  
 X_Maximum  
@@ -63,7 +67,9 @@ Log_X_Index
 Log_Y_Index   
 Orientation_Index  
 Luminosity_Index  
-SigmoidOfAreas  
+SigmoidOfAreas   
+
+Type of dependent variables(7 Types of Steel Plates Faults) - one hot encoding
 
 Pastry  
 Z_Scratch  

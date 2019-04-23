@@ -40,9 +40,9 @@ We provide the data both in .ods and in .xlsx formats.
 #### Variables
 
 Features consist of hourly average ambient variables 
-- Temperature (T) in the range 1.81°C and 37.11°C, (input)
+- Temperature (T) in the range 1.81°C and 37.11°C, (input) - (data에서 AT)
 - Ambient Pressure (AP) in the range 992.89-1033.30 milibar, (input)
 - Relative Humidity (RH) in the range 25.56% to 100.16% (input)
 - Exhaust Vacuum (V) in teh range 25.36-81.56 cm Hg (input)
 - Net hourly electrical energy output (EP) 420.26-495.76 MW
-  The averages are taken from various sensors located around the plant that record the ambient variables every second. The variables are given without normalization. (output)
+  The averages are taken from various sensors located around the plant that record the ambient variables every second. The variables are given without normalization. (output) - (데이터에서 PE)
