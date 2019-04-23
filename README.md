@@ -78,27 +78,27 @@
 ![](https://img.shields.io/badge/tool_wear_detection-gray.svg)
 ![](https://img.shields.io/badge/detection_of_inadequate_clamping-gray.svg)
 
-* [Naval Propulsion Plants](https://archive.ics.uci.edu/ml/datasets/Condition+Based+Maintenance+of+Naval+Propulsion+Plants): Data have been generated from a sophisticated simulator of a Gas Turbines (GT), mounted on a Frigate characterized by a COmbined Diesel eLectric And Gas (CODLAG) propulsion plant type.  
+* [Naval Propulsion Plants](https://github.com/makinarocks/awesome-industrial-machine-datasets/tree/minkyu/data-explanation/Naval%20Propulsion%20Plantste characterized by a COmbined Diesel eLectric And Gas (CODLAG) propulsion plant type.  
 ![](https://img.shields.io/badge/sector-mechanical-purple.svg)
 ![](https://img.shields.io/badge/labeled-yes-blue.svg)
 ![](https://img.shields.io/badge/time--series-no-red.svg)   
 
 ### Steel
 
-* [Steel Plates Faults](http://archive.ics.uci.edu/ml/datasets/Steel+Plates+Faults).  
+* [Steel Plates Faults](https://github.com/makinarocks/awesome-industrial-machine-datasets/tree/minkyu/data-explanation/Steel%20Plates%20Faults).  
 ![](https://img.shields.io/badge/sector-steel-lightgray.svg)
 ![](https://img.shields.io/badge/labeled-yes-blue.svg)
 ![](https://img.shields.io/badge/time--series-no-red.svg)  
 ![](https://img.shields.io/badge/fault_classification-gray.svg)
 
 ### Power
-* [Appliance Energy](https://archive.ics.uci.edu/ml/datasets/Appliances+energy+prediction): Experimental data used to create regression models of appliances energy use in a low energy building.  
+* [Appliance Energy](https://github.com/makinarocks/awesome-industrial-machine-datasets/tree/minkyu/data-explanation/Appliance%20Energy): Experimental data used to create regression models of appliances energy use in a low energy building.  
 ![](https://img.shields.io/badge/sector-power-lightblue.svg)
 ![](https://img.shields.io/badge/labeled-yes-blue.svg)
 ![](https://img.shields.io/badge/time--series-yes-blue.svg)  
 ![](https://img.shields.io/badge/house_environment-gray.svg)  
 
-* [Combined Cycle Power Plant](https://archive.ics.uci.edu/ml/datasets/Combined+Cycle+Power+Plant): Combined Cycle Power Plant over 6 years.  
+* [Combined Cycle Power Plant](https://github.com/makinarocks/awesome-industrial-machine-datasets/tree/minkyu/data-explanation/Combined%20Cycle%20Power%20Plant): Combined Cycle Power Plant over 6 years.  
 ![](https://img.shields.io/badge/sector-power-lightblue.svg)
 ![](https://img.shields.io/badge/labeled-yes-blue.svg)
 ![](https://img.shields.io/badge/time--series-no-red.svg) 
@@ -108,7 +108,7 @@
 
 
 
-* [Hill-Valley](https://archive.ics.uci.edu/ml/datasets/Hill-Valley): This is NOT a manufacturing dataset, but looks good for testing pattern detection methods.  
+* [Hill-Valley](https://github.com/makinarocks/awesome-industrial-machine-datasets/tree/minkyu/data-explanation/Hill-Valley): This is NOT a manufacturing dataset, but looks good for testing pattern detection methods.  
 ![](https://img.shields.io/badge/sector-etc-333333.svg)
 ![](https://img.shields.io/badge/labeled-yes-blue.svg)
 ![](https://img.shields.io/badge/time--series-no-red.svg)  
