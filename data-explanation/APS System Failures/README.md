@@ -14,7 +14,7 @@ The datasets' positive class consists of component failures for a specific compo
 
  ![](https://img.shields.io/badge/time--series-no-red.svg)
 
- ![](https://img.shields.io/badge/failure classification-gray.svg)
+ ![](https://img.shields.io/badge/failure%20classification-gray.svg)
 
 #### Data Set Information:
 
