@@ -48,15 +48,15 @@ S23 | ETCHAUX2SOURCETIMER | Numeric | counter of the use for the chamber shields
 S24 | ACTUALSTEPDURATION | Numeric(Sensor) | measured time duration for a particular step
 
 
-- Train_ttf 파일 20개는 총 82,189,440개의 row로 이루어져 있으며, 4개의 column으로 구성된다.  
+- Train_fault 파일 20개는 총 1,236개의 row로 이루어져 있으며, 4개의 column으로 구성된다. 
 
 ID#| Parameter Name | Type | Description
 ---- | ---- | ---- | ----
 F1 | time | Numeric | time
 F2 | fault_name | Categorical | name of the particular class of fault that occurred at the specified time
-F3 | tool | Categorical | -  
+F3 | stage | Categorical | - 
 
-- Train_fault 파일 20개는 총 1,236개의 row로 이루어져 있으며, 3개의 column으로 구성된다.    
+- Train_ttf 파일 20개는 총 82,189,440개의 row로 이루어져 있으며, 3개의 column으로 구성된다.     
 
 Parameter Name | Type
 ---- | ----
