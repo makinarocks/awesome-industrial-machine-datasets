@@ -12,7 +12,7 @@ Faults27x7 var : 497Byte
 
  ![](https://img.shields.io/badge/time--series-no-red.svg)
 
- ![](https://img.shields.io/badge/fault classification-gray.svg)
+ ![](https://img.shields.io/badge/fault%20classification-gray.svg)
 
 #### Data Set Information
 
