@@ -35,7 +35,7 @@ number of instance
 
 Each record represents 100 points on a two-dimensional graph. When plotted in order (from 1 through 100) as the Y co-ordinate, the points will create either a Hill (a “bump” in the terrain) or a Valley (a “dip” in the terrain). 
 
-![1556516777892](C:\Users\good\AppData\Roaming\Typora\typora-user-images\1556516777892.png)
+![1556516777892](https://github.com/makinarocks/awesome-industrial-machine-datasets/blob/minkyu/data-explanation/Hill-Valley/img/Hill_Valley_visual_examples.jpg)
 
 There are six files, as follows: 
 
