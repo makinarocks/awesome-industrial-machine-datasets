@@ -12,7 +12,7 @@ Experimental data used to create regression models of appliance energy use in a 
 
  ![](https://img.shields.io/badge/time--series-yes-blue.svg)
 
- ![](https://img.shields.io/badge/house environment-gray.svg)
+ ![](https://img.shields.io/badge/house%20environment-gray.svg)
 
 #### Data Set Information
 
