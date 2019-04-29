@@ -58,9 +58,9 @@ A 16-feature vector containing the GT measures at steady state of the physical a
 15 - Turbine Injecton Control (TIC) [%]  
 16 - Fuel flow (mf) [kg/s]  
 
-17 - GT Compressor decay state coefficient. (kMc, 0.95~1사이의 값) 
+17 - GT Compressor decay state coefficient. (kMc) 
 
-- 0.001씩 커짐
+- 0.95~1사이의 값, 0.001씩 커짐
 
 18 - GT Turbine decay state coefficient. (kMt)
 
