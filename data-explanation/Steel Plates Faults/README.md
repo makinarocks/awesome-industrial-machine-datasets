@@ -2,15 +2,17 @@
 
 [data](http://archive.ics.uci.edu/ml/datasets/Steel+Plates+Faults)
 
-sector : steel
+Faults.NNA : 292KB
 
- ![](https://img.shields.io/badge/sector-steal-red.svg)
+Faults27x7 var : 497Byte
+
+ ![](https://img.shields.io/badge/sector-steal-gray.svg)
 
  ![](https://img.shields.io/badge/labeled-yes-blue.svg)
 
- ![](https://img.shields.io/badge/time--series-no-blue.svg)
+ ![](https://img.shields.io/badge/time--series-no-red.svg)
 
-fault classification
+ ![](https://img.shields.io/badge/fault classification-gray.svg)
 
 #### Data Set Information
 
@@ -22,22 +24,15 @@ fault classification
 | ------------------- | -------------------- | ---- | ---- |
 | 1941                | 27                   |      |      |
 
-(Faults.NNA data)
+A dataset of steel plates’ faults, classified into 7 different types. The goal was to train machine learning for automatic pattern recognition.
 
-There are 34 fields. The first 27 fields describe some kind of steel plate faults seen in images
+dataset은 각 fault(location, size,...)를 설명하는 27개의 feature들과, fault의 type(one of 7: Pastry, Z_Scratch, K_Scatch, Stains, Dirtiness, Bumps, Other_Faults)을 나타내는 7개의 binary features들로 구성되어 있음. fault의 type 부분은 binary classification target('common' or 'other' fault)으로도 사용됨.
 
-The last 7 columns are one hot encoded classes, i.e. if the plate fault is classified as "Stains" there will be a 1 in that column and 0's in the other columns. If you are unfamiliar with one hot encoding, **just know that the last seven columns are your class labels.**
+**The last 7 columns are one hot encoded classes**, i.e. if the plate fault is classified as "Stains" there will be a 1 in that column and 0's in the other columns. If you are unfamiliar with one hot encoding, **just know that the last seven columns are your class labels.**
 
-Every dataset record represents a superficial fault of a stainless steel leaf. There are 6 different typologies of
-faults. The fault description is constituted by 27 indicators representing the geometric shape of the fault
-and its contour. We have 1941 records in total. 
+모든 dataset record는 stainless steel leaf의 superficial fault를 나타냄. fault는 6가지 유형이 있는데, The fault description은 fault의 기하학적 모양과 그 윤곽을 나타내는 27개의 indicators로 구성됨
 
-The Faults’ dataset underlines, in a well-marked way, the efficacy in using meta-classifiers and is further
-illustrative of the evidence that serves to establish the quality of Meta-Consensus as a classifier. While it
-occupies the third position in terms of weighted average, it is the first of the set that does not create a
-base classifier (Arcing, Boosting) but rather, uses the available base classifiers. 
-
-#### Variable
+#### Variables
 
 27 Independent variables
 
@@ -71,6 +66,8 @@ SigmoidOfAreas
 
 Type of dependent variables(7 Types of Steel Plates Faults) - one hot encoding
 
+**the last seven columns are class labels.**
+
 Pastry  
 Z_Scratch  
 K_Scatch  
@@ -79,6 +76,10 @@ Dirtiness
 Bumps  
 Other_Faults  
 
-file:///home/makinarocks/Downloads/METANET.pdf  
+#### paper
 
-file:///home/makinarocks/Downloads/NAFIPS-101-Buscema.pdf  
+[MetaNet*: The Theory of Independent Judges](https://www.researchgate.net/publication/13731626_MetaNet_The_Theory_of_Independent_Judges)
+
+**Classification of Six Types of Surface Defects in Stainless Steel Plates**
+
+목표는가능한 6가지 유형의 결함으로 stainless steel plates에서 surface defects의 유형을 정확하게 classify하는 것.
