@@ -38,12 +38,12 @@ FD002 | 260 | 259 | Six | One(HPC degradation)
 FD003 | 100 | 100 | One | Two(HPC degradation, fan degradation)   
 FD004 | 249 | 248 | Six | Two(HPC degradation, fan degradation)  
 
-Train Data Set | Number of row | Test Data Set | Number of row  
----- | ---- | ---- | ----  
-FD001 | 20631 | FD001 | 13096  
-FD002 | 53759 | FD002 | 33991  
-FD003 | 24720 | FD003 | 16596  
-FD004 | 61249 | FD004 | 41214  
+Train Data Set | Number of row | Test Data Set | Number of row  | RUL Data Set | Number of row 
+---- | ---- | ---- | ----  | ----  | ----  
+FD001 | 20631 | FD001 | 13096  | FD001 | 100 
+FD002 | 53759 | FD002 | 33991  | FD002 | 259 
+FD003 | 24720 | FD003 | 16596  | FD003 | 100 
+FD004 | 61249 | FD004 | 41214  | FD004 | 248 
 
 
 - Attributes Explanation    
@@ -66,7 +66,7 @@ The columns correspond to:
 - 추가적으로 조사할 것  
   test data가 아니라 train data에 RUL값이 제공되어야 하는 것 아닌지 -> 그건 아니고, train data는 위에서 특정 threshold에 도달할 때까지 진행된다고 하였다.   
   RUL dataset에서 각 element값이 각 test set에서 어떤 timestep에서의 RUL 값을 의미하는건지 -> 각 test set의 unit number의 max 수만큼 RUL값이 있다.  
-  RUL_FD001에서, 첫번째 row에 있는 값의 의미 = test_FD001에서 unit number = 1 에 해당하는 operation의 RUL 값 -> last cycle에 대한 건지 first cycle에 대한 건지 모르겠다..  
+  RUL_FD001에서, 첫번째 row에 있는 값의 의미 = test_FD001에서 unit number = 1 에 해당하는 operation의 RUL 값 -> 시점 기준이 last cycle 인지 first cycle인지 모르겠다.  
 
 ### 관련 연구  
 
@@ -78,10 +78,14 @@ The columns correspond to:
 2. [Remaining Useful Life Estimation Using Functional
    Data Analysis](<https://arxiv.org/pdf/1904.06442.pdf>)   
 
-   keywords: LSTM, CNN, MLP   
+   keywords: LSTM, CNN, MLP    
 
-3. 
 
 
 ##### Data Download Link  
 [https://ti.arc.nasa.gov/c/6/](https://ti.arc.nasa.gov/c/6/)   
+
+데이터 용량(압축상태):  
+
+11.9MB   
+
