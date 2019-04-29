@@ -10,7 +10,7 @@ This is NOT a manufacturing dataset, but looks good for testing pattern detectio
 
  ![](https://img.shields.io/badge/time--series-no-red.svg)
 
- ![](https://img.shields.io/badge/hill--valley classification-gray.svg)
+ ![](https://img.shields.io/badge/hill--valley%20classification-gray.svg)
 
 #### Data Set Information:
 
