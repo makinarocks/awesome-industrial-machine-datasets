@@ -78,7 +78,7 @@
 ![](https://img.shields.io/badge/tool_wear_detection-gray.svg)
 ![](https://img.shields.io/badge/detection_of_inadequate_clamping-gray.svg)
 
-* [Naval Propulsion Plants](https://github.com/makinarocks/awesome-industrial-machine-datasets/blob/minkyu/data-explanation/Naval%20Propulsion%20Plantste/README.md) characterized by a COmbined Diesel eLectric And Gas (CODLAG) propulsion plant type.  
+* [Naval Propulsion Plants](https://github.com/makinarocks/awesome-industrial-machine-datasets/tree/minkyu/data-explanation/Naval%20Propulsion%20Plants/README.md) characterized by a COmbined Diesel eLectric And Gas (CODLAG) propulsion plant type.  
 ![](https://img.shields.io/badge/sector-mechanical-purple.svg)
 ![](https://img.shields.io/badge/labeled-yes-blue.svg)
 ![](https://img.shields.io/badge/time--series-no-red.svg)   
@@ -92,35 +92,31 @@
 ![](https://img.shields.io/badge/fault_classification-gray.svg)
 
 ### Power
-* [Appliance Energy](https://github.com/makinarocks/awesome-industrial-machine-datasets/blob/minkyu/data-explanation/Appliance%20Energy/README.md): Experimental data used to create regression models of appliances energy use in a low energy building.  
+* [Appliance Energy](https://github.com/makinarocks/awesome-industrial-machine-datasets/tree/minkyu/data-explanation/Appliance%20Energy/README.md): Experimental data used to create regression models of appliances energy use in a low energy building.  
 ![](https://img.shields.io/badge/sector-power-lightblue.svg)
 ![](https://img.shields.io/badge/labeled-yes-blue.svg)
 ![](https://img.shields.io/badge/time--series-yes-blue.svg)  
 ![](https://img.shields.io/badge/house_environment-gray.svg)  
 
-* [Combined Cycle Power Plant](https://github.com/makinarocks/awesome-industrial-machine-datasets/blob/minkyu/data-explanation/Combined%20Cycle%20Power%20Plant/README.md): Combined Cycle Power Plant over 6 years.  
+* [Combined Cycle Power Plant](https://github.com/makinarocks/awesome-industrial-machine-datasets/tree/minkyu/data-explanation/Combined%20Cycle%20Power%20Plant/README.md): Combined Cycle Power Plant over 6 years.  
 ![](https://img.shields.io/badge/sector-power-lightblue.svg)
 ![](https://img.shields.io/badge/labeled-yes-blue.svg)
 ![](https://img.shields.io/badge/time--series-no-red.svg) 
 
 ### Etc
-
-
-
-
-* [Hill-Valley](https://github.com/makinarocks/awesome-industrial-machine-datasets/blob/minkyu/data-explanation/Hill-Valley/README.md): This is NOT a manufacturing dataset, but looks good for testing pattern detection methods.  
+* [Hill-Valley](https://github.com/makinarocks/awesome-industrial-machine-datasets/tree/minkyu/data-explanation/Hill-Valley/README.md): This is NOT a manufacturing dataset, but looks good for testing pattern detection methods.  
 ![](https://img.shields.io/badge/sector-etc-333333.svg)
 ![](https://img.shields.io/badge/labeled-yes-blue.svg)
 ![](https://img.shields.io/badge/time--series-no-red.svg)  
 ![](https://img.shields.io/badge/hill--valley_classification-gray.svg)
 
-* [Machine Failures](https://github.com/makinarocks/awesome-industrial-machine-datasets/blob/minkyu/data-explanation/Machine Failures/README.md)  
+* [Machine Failures](https://github.com/makinarocks/awesome-industrial-machine-datasets/tree/minkyu/data-explanation/Machine%20failure/README.md)  
 ![](https://img.shields.io/badge/sector-etc-333333.svg)
 ![](https://img.shields.io/badge/labeled-yes-blue.svg)
 ![](https://img.shields.io/badge/time--series-yes-blue.svg)  
 ![](https://img.shields.io/badge/failure_detection-gray.svg) 
 
-* [APS System Failures](https://github.com/makinarocks/awesome-industrial-machine-datasets/blob/minkyu/data-explanation/APS%20System%20Failures/README.md):  The datasets' positive class consists of component failures for a specific component of the APS system. The negative class consists of trucks with failures for components not related to the APS.  
+* [APS System Failures](https://github.com/makinarocks/awesome-industrial-machine-datasets/tree/minkyu/data-explanation/APS%20System%20Failures/README.md):  The datasets' positive class consists of component failures for a specific component of the APS system. The negative class consists of trucks with failures for components not related to the APS.  
 ![](https://img.shields.io/badge/sector-etc-333333.svg)
 ![](https://img.shields.io/badge/labeled-yes-blue.svg)
 ![](https://img.shields.io/badge/time--series-no-red.svg)  
