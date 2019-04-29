@@ -29,16 +29,26 @@ The columns correspond to:
 
 
 - Data Set  
-train.txt, test.txt, final_test.txt     
-Train trjectories: 218   
-Test trajectories: 218   
-final_test trajectoris: 435    
-Train/Test는 모델을 만드는 데 사용하는 것 같고, 마지막으로 final_test 를 써서 final score를 산출하는 것 같다. 
-(Once algorithms are trained to satisfaction, users can apply them to the final test dataset contained in the file named final_test.txt. )  
-final score은 RUL errors의 weighted sum 이다.    
+  train.txt, test.txt, final_test.txt     
+  Train trjectories: 218   
+  Test trajectories: 218   
+  final_test trajectoris: 435    
+  Train/Test는 모델을 만드는 데 사용하는 것 같고, 마지막으로 final_test 를 써서 final score를 산출하는 것 같다. 
+  (Once algorithms are trained to satisfaction, users can apply them to the final test dataset contained in the file named final_test.txt. )  
+  final score은 RUL errors의 weighted sum 이다.    
+
+### 관련 연구  
+
+1. [Long Short-Term Memory Network for Remaining
+   Useful Life Estimation](<http://www.hitachi-america.us/rd/about_us/bdl/docs/LSTM_RUL.PDF>)   
+
+   keywords: LSTM, Multi-Layer Perceptron (MLP), Support Vector Regression (SVR), Relevance Vector Regression (RVR) and Convolutional Neural Network (CNN)  
 
 
 ##### Data Folder Link  
 [https://ti.arc.nasa.gov/c/13/](https://ti.arc.nasa.gov/c/13/)   
 
+데이터 용량(압축상태):  
+
+5.57MB  
 

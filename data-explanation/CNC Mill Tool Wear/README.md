@@ -1,9 +1,9 @@
 ## Mechanical    
 ### [CNC Mill Tool Wear](https://www.kaggle.com/shasun/tool-wear-detection-in-cnc-mill/data) 
 
-CNC Mill Tool Wear 데이터는 'Tool wear detection', 'Detection of inadequate clamping' 등의 classification studies를 수행하기 위해 제공되었다.  
+CNC Mill Tool Wear 데이터는 'Tool wear detection', 'Detection of inadequate clamping' 등의 classification studies를 수행하기 위해 제공되었다.    
 
-18개의 experiment_xx.csv 파일과 train.csv 파일이 제공되었다.  각 experiment_xx.csv 파일은 48개의 columns로 구성되며, 각 row의 수는 experiment_01.csv부터 experiment_18.csv까지 (1056, 1669, 1522, 533, 463, 1297, 566, 606, 741, 1302, 2315, 2276, 2234, 2333, 1382, 603, 2151, 2254) 이다. 18 different experiments에 대한 general data는 train.csv에 제공되어 있다. 18 experiments로부터 수집된 time series data는 100ms 의 sampling rate로 수집되었다.   
+18개의 experiment_xx.csv 파일과 train.csv 파일이 제공되었다.  각 experiment_xx.csv 파일은 48개의 columns로 구성되며, 각 row의 수는 experiment_01.csv부터 experiment_18.csv까지 (1056, 1669, 1522, 533, 463, 1297, 566, 606, 741, 1302, 2315, 2276, 2234, 2333, 1382, 603, 2151, 2254) 이다. 18 different experiments에 대한 general data는 train.csv에 제공되어 있다. 18 experiments로부터 수집된 time series data는 100ms 의 sampling rate로 수집되었다.    
 
 ![](https://img.shields.io/badge/sector-mechanical-purple.svg)
 ![](https://img.shields.io/badge/labeled-meta--only-yellow.svg)
@@ -19,7 +19,7 @@ CNC Mill Tool Wear 데이터는 'Tool wear detection', 'Detection of inadequate 
 Data Set | Number of row | Data Set | Number of row  
 ---- | ---- | ---- | ----  
 experiment_01.csv | 1056 | experiment_10.csv | 1302 
-experiment_02.csv | 1069 | experiment_11.csv | 2315 
+experiment_02.csv | 1669 | experiment_11.csv | 2315 
 experiment_03.csv | 1522 | experiment_12.csv | 2276 
 experiment_04.csv | 533 | experiment_13.csv | 2234 
 experiment_05.csv | 463 | experiment_14.csv | 2333 
@@ -33,7 +33,7 @@ experiment_09.csv | 741 | experiment_18.csv | 2254
 
 
 
-- Attribute explanation - Train.csv
+- Attribute explanation - Train.csv   
 
 | Inputs(features)     | Description                                                  | Outputs(predictions)     | Description                                                  |
 | -------------------- | ------------------------------------------------------------ | ------------------------ | ------------------------------------------------------------ |
@@ -101,12 +101,24 @@ experiment_09.csv | 741 | experiment_18.csv | 2254
 
   
 
-  
+
+### 관련 연구  
+
+1. [CNC Machine Tool’s wear diagnostic and prognostic by
+   using dynamic bayesian networks](<https://hal.archives-ouvertes.fr/hal-00672204/document>)   
+
+   keywords: dynamic bayesian networks, Diagnostic, Prognostic, Remaining Useful Life, Condition
+   Based Maintenance, Hidden Markov Models, Monitoring data, Tool wear    
+
+   
 
 
+##### Data Download Link   
+데이터 용량(압축상태):   
 
+2.56MB  
 
+데이터 용량(압축 푼 상태):  
 
+11.6MB   
 
-##### Data Download Link  
-[https://ti.arc.nasa.gov/c/6/](https://ti.arc.nasa.gov/c/6/)   
