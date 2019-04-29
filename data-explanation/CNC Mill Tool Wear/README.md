@@ -27,7 +27,7 @@ experiment_06.csv | 1297 | experiment_15.csv | 1382
 experiment_07.csv | 566 | experiment_16.csv | 603 
 experiment_08.csv | 606 | experiment_17.csv | 2151 
 experiment_09.csv | 741 | experiment_18.csv | 2254 
-- | - | Train.csv | 18 
+ |  | Train.csv | 18 
 
 
 
@@ -42,7 +42,7 @@ experiment_09.csv | 741 | experiment_18.csv | 2254
 | feed_rate            | relative velocity of the cutting tool along the workpiece(mm/s) | passed_visual_inspection | indicator for if the workpiece passed visual   inspection, only available for experiments where machining was completed |
 | clamp_pressure       | pressure used to hold the workpiece in the wise(bar)         | -                        |                                                              |
 
-
+tool_condition 변수에 tool이 unworn인지 worn인지에 대한 여부가 나타나 있다.   
 
 - Attributes explanation - 18 experiment_xx.csv  
 
@@ -99,16 +99,23 @@ experiment_09.csv | 741 | experiment_18.csv | 2254
   | M1_CURRENT_FEEDRATE       | float64 | instantaneous feed rate of spindle                           |
   | Machining_Process         | object  | the current machining stage being performed. Includes preparation, tracing up  and down the "S" curve involving different layers, and repositioning of the spindle as it moves through the air to a certain starting point |
 
+
+- CNC measurements를 사용할 수 있는 방법 2가지  
+
+  (1) Taking every CNC measurement as an independent observation where the operation being performed is given in the Machining_Process column. Active machining operations are labeled as "Layer 1 Up", "Layer 1 Down", "Layer 2 Up", "Layer 2 Down", "Layer 3 Up", and "Layer 3 Down".    
+
+  (2) Taking each one of the 18 experiments (the entire time series) as an observation for time series classification     
+
   
 
 
-### 관련 연구  
+### 관련 연구   
 
 1. [CNC Machine Tool’s wear diagnostic and prognostic by
-   using dynamic bayesian networks](<https://hal.archives-ouvertes.fr/hal-00672204/document>)   
+   using dynamic bayesian networks](<https://hal.archives-ouvertes.fr/hal-00672204/document>)    
 
    keywords: dynamic bayesian networks, Diagnostic, Prognostic, Remaining Useful Life, Condition
-   Based Maintenance, Hidden Markov Models, Monitoring data, Tool wear    
+   Based Maintenance, Hidden Markov Models, Monitoring data, Tool wear     
 
    
 
@@ -116,9 +123,9 @@ experiment_09.csv | 741 | experiment_18.csv | 2254
 ##### Data Download Link   
 데이터 용량(압축상태):   
 
-2.56MB  
+2.56MB   
 
-데이터 용량(압축 푼 상태):  
+데이터 용량(압축 푼 상태):   
 
 11.6MB   
 
