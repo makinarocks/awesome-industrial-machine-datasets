@@ -78,7 +78,7 @@
 ![](https://img.shields.io/badge/tool_wear_detection-gray.svg)
 ![](https://img.shields.io/badge/detection_of_inadequate_clamping-gray.svg)
 
-* [Naval Propulsion Plants](https://github.com/makinarocks/awesome-industrial-machine-datasets/tree/minkyu/data-explanation/Naval%20Propulsion%20Plantste characterized by a COmbined Diesel eLectric And Gas (CODLAG) propulsion plant type.  
+* [Naval Propulsion Plants](https://github.com/makinarocks/awesome-industrial-machine-datasets/tree/minkyu/data-explanation/Naval%20Propulsion%20Plantste) characterized by a COmbined Diesel eLectric And Gas (CODLAG) propulsion plant type.  
 ![](https://img.shields.io/badge/sector-mechanical-purple.svg)
 ![](https://img.shields.io/badge/labeled-yes-blue.svg)
 ![](https://img.shields.io/badge/time--series-no-red.svg)   
