@@ -3,11 +3,11 @@
 
 The dataset contains 18000 time-series recordings from a chemical detection platform at six different locations in a wind tunnel facility in response to ten high-priority chemical gaseous substances.  
 The resulting dataset induces a **ten-class** gas discrimination problem   
-The dataset was gathered from December 2010 to April 2012(16 months)  
+The dataset was gathered from December 2010 to April 2012(16 months) in wind tunnel research test-bed facility situated at the BioCircuits Institute, University of California San Diego.    
 
 ![](https://img.shields.io/badge/sector-chemical-red.svg)
 ![](https://img.shields.io/badge/labeled-yes-blue.svg)
-![](https://img.shields.io/badge/time--series-yes-blue.svg)  
+![](https://img.shields.io/badge/time--series-yes-blue.svg)![](<https://img.shields.io/badge/simulation-yes-blue.svg>)     
 
 #### Data Set Information    
 
