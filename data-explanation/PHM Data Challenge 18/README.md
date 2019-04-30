@@ -6,7 +6,7 @@ PHM Data Challenge 18에서 제공한 데이터는 웨이퍼 제조 공정 내�
 
 ![](https://img.shields.io/badge/sector-semicon-blue.svg)
 ![](https://img.shields.io/badge/labeled-yes-blue.svg)
-![](https://img.shields.io/badge/time--series-yes-blue.svg)![](<https://img.shields.io/badge/simulation-no-red.svg>)        
+![](https://img.shields.io/badge/time--series-yes-blue.svg) ![](<https://img.shields.io/badge/simulation-no-red.svg>)        
 
 #### Training data
 

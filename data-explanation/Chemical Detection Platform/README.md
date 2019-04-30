@@ -7,7 +7,7 @@ The dataset was gathered from December 2010 to April 2012(16 months) in wind tun
 
 ![](https://img.shields.io/badge/sector-chemical-red.svg)
 ![](https://img.shields.io/badge/labeled-yes-blue.svg)
-![](https://img.shields.io/badge/time--series-yes-blue.svg)![](<https://img.shields.io/badge/simulation-yes-blue.svg>)     
+![](https://img.shields.io/badge/time--series-yes-blue.svg) ![](<https://img.shields.io/badge/simulation-yes-blue.svg>)     
 
 #### Data Set Information    
 

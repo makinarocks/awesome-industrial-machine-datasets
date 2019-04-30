@@ -16,7 +16,7 @@ response surfaces of all sensors are generated via a thermo-dynamical simulation
 ![](https://img.shields.io/badge/sector-mechanical-purple.svg)
 ![](https://img.shields.io/badge/labeled-implicit-green.svg)
 ![](https://img.shields.io/badge/time--series-yes-blue.svg)  
-![](https://img.shields.io/badge/time--to--failure-gray.svg)![](<https://img.shields.io/badge/simulation-yes-blue.svg>)     
+![](https://img.shields.io/badge/time--to--failure-gray.svg) ![](<https://img.shields.io/badge/simulation-yes-blue.svg>)     
 
 - 데이터 부연 설명  
 

@@ -8,7 +8,7 @@ The data set was collected in a gas delivery platform facility at the ChemoSigna
 
 ![](https://img.shields.io/badge/sector-chemical-red.svg)
 ![](https://img.shields.io/badge/labeled-yes-blue.svg)
-![](https://img.shields.io/badge/time--series-yes-blue.svg)![](<https://img.shields.io/badge/simulation-yes-blue.svg>)    
+![](https://img.shields.io/badge/time--series-yes-blue.svg) ![](<https://img.shields.io/badge/simulation-yes-blue.svg>)    
 
 - 데이터 요약  
 

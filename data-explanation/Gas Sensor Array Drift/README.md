@@ -9,7 +9,7 @@ The dataset was gathered during the period of January 2008 to February 2011 (36 
 
 ![](https://img.shields.io/badge/sector-chemical-red.svg)
 ![](https://img.shields.io/badge/labeled-yes-blue.svg)
-![](https://img.shields.io/badge/time--series-yes-blue.svg)![](<https://img.shields.io/badge/simulation-yes-blue.svg>)       
+![](https://img.shields.io/badge/time--series-yes-blue.svg)  ![](<https://img.shields.io/badge/simulation-yes-blue.svg>)       
 
 
 - 데이터 요약  

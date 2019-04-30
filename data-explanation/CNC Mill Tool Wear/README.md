@@ -11,7 +11,7 @@ A series of machining experiments were run on 2" x 2" x 1.5" wax blocks in a CNC
 ![](https://img.shields.io/badge/labeled-meta--only-yellow.svg)
 ![](https://img.shields.io/badge/time--series-yes-blue.svg)  
 ![](https://img.shields.io/badge/tool_wear_detection-gray.svg)
-![](https://img.shields.io/badge/detection_of_inadequate_clamping-gray.svg)![](<https://img.shields.io/badge/simulation-yes-blue.svg>)    
+![](https://img.shields.io/badge/detection_of_inadequate_clamping-gray.svg) ![](<https://img.shields.io/badge/simulation-yes-blue.svg>)    
 
 
 
