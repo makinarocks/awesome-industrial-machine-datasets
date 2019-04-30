@@ -73,7 +73,7 @@ A 16-feature vector containing the GT measures at steady state of the physical a
 
 #### Paper
 
-[Condition-Based Maintenance of Naval Propulsion Systems with supervised Data Analysis](https://www.sciencedirect.com/science/article/pii/S0029801817307242) 
+[Condition-Based Maintenance of Naval Propulsion Systems with supervised Data Analysis](https://github.com/makinarocks/awesome-industrial-machine-datasets/blob/master/data-explanation/Naval%20Propulsion%20Plants/Cipollini_etal_OE_2018_Condition_based_maintenance_of_naval_propulsion_systems_with_supervised_data_analysis.pdf) 
 
 **highlights**
 
