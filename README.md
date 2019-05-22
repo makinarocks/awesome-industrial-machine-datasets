@@ -120,7 +120,7 @@
 
 - [Cycle Engineering Battery Group](<https://web.calce.umd.edu/batteries/data.htm#undefined>)      
 
-  ![](<https://img.shields.io/badge/sector-battery-ff69b4.svg>)  
+  ![](<https://img.shields.io/badge/sector-battery-ff69b4.svg>)     
 
 ### Etc
 
