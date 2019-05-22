@@ -3,13 +3,15 @@
 ## Tags
 
 * Sector  
-![](https://img.shields.io/badge/sector-semicon-blue.svg)
-![](https://img.shields.io/badge/sector-chemical-red.svg)
-![](https://img.shields.io/badge/sector-power-lightblue.svg)
-![](https://img.shields.io/badge/sector-automotiv-green.svg)
-![](https://img.shields.io/badge/sector-mechanical-purple.svg)
-![](https://img.shields.io/badge/sector-steel-lightgray.svg)
-![](https://img.shields.io/badge/sector-etc-333333.svg)
+  ![](https://img.shields.io/badge/sector-semicon-blue.svg)
+  ![](https://img.shields.io/badge/sector-chemical-red.svg)
+  ![](https://img.shields.io/badge/sector-power-lightblue.svg)
+  ![](https://img.shields.io/badge/sector-automotiv-green.svg)
+  ![](https://img.shields.io/badge/sector-mechanical-purple.svg)
+  ![](https://img.shields.io/badge/sector-steel-lightgray.svg)
+
+  ![](<https://img.shields.io/badge/sector-battery-ff69b4.svg>)
+  ![](https://img.shields.io/badge/sector-etc-333333.svg)
 
 * Label  
 ![](https://img.shields.io/badge/labeled-yes-blue.svg)
@@ -79,11 +81,15 @@
 ![](https://img.shields.io/badge/detection_of_inadequate_clamping-gray.svg)
 
 * [Naval Propulsion Plants](https://github.com/makinarocks/awesome-industrial-machine-datasets/tree/minkyu/data-explanation/Naval%20Propulsion%20Plants/README.md) characterized by a COmbined Diesel eLectric And Gas (CODLAG) propulsion plant type.  
-![](https://img.shields.io/badge/sector-mechanical-purple.svg)
-![](https://img.shields.io/badge/labeled-yes-blue.svg)
-![](https://img.shields.io/badge/time--series-no-red.svg)   
+  ![](https://img.shields.io/badge/sector-mechanical-purple.svg)
+  ![](https://img.shields.io/badge/labeled-yes-blue.svg)
+  ![](https://img.shields.io/badge/time--series-no-red.svg)   
 
-### Steel
+* [PHM Data Challenge 17](<https://www.phmsociety.org/events/conference/phm/17/data-challenge>) : predict faulty regimes of operation of a train car using the data provided and physics-based modeling methods.           
+
+![](https://img.shields.io/badge/sector-mechanical-purple.svg)  
+
+### Steel  
 
 * [Steel Plates Faults](https://github.com/makinarocks/awesome-industrial-machine-datasets/blob/minkyu/data-explanation/Steel%20Plates%20Faults/README.md).  
 ![](https://img.shields.io/badge/sector-steel-lightgray.svg)
@@ -97,11 +103,24 @@
 ![](https://img.shields.io/badge/labeled-yes-blue.svg)
 ![](https://img.shields.io/badge/time--series-yes-blue.svg)  
 ![](https://img.shields.io/badge/house_environment-gray.svg)  
-
 * [Combined Cycle Power Plant](https://github.com/makinarocks/awesome-industrial-machine-datasets/tree/minkyu/data-explanation/Combined%20Cycle%20Power%20Plant/README.md): Combined Cycle Power Plant over 6 years.  
 ![](https://img.shields.io/badge/sector-power-lightblue.svg)
 ![](https://img.shields.io/badge/labeled-yes-blue.svg)
-![](https://img.shields.io/badge/time--series-no-red.svg) 
+![](https://img.shields.io/badge/time--series-no-red.svg)   
+
+### Battery  
+
+- [Experiments on Li-ion batteries](<https://ti.arc.nasa.gov/tech/dash/groups/pcoe/prognostic-data-repository/#battery>): Charging and discharging at different temperatures. Records the impedance as the damage criterion.               
+
+  ![](<https://img.shields.io/badge/sector-battery-ff69b4.svg>)    
+
+- [Panasonic 18650PF Li-ion Battery Data](<https://data.mendeley.com/datasets/wykht8y7tg/1#folder-df7a873b-ae5f-4a63-ab5c-8f9792b59429>)        
+
+  ![](<https://img.shields.io/badge/sector-battery-ff69b4.svg>)    
+
+- [Cycle Engineering Battery Group](<https://web.calce.umd.edu/batteries/data.htm#undefined>)      
+
+  ![](<https://img.shields.io/badge/sector-battery-ff69b4.svg>)  
 
 ### Etc
 
