@@ -112,15 +112,15 @@
 
 ### Battery  
 
-- [Experiments on Li-ion batteries](<https://ti.arc.nasa.gov/tech/dash/groups/pcoe/prognostic-data-repository/#battery>): Charging and discharging at different temperatures. Records the impedance as the damage criterion.     (data __o__)         
+- [Experiments on Li-ion batteries](<https://ti.arc.nasa.gov/tech/dash/groups/pcoe/prognostic-data-repository/#battery>): Charging and discharging at different temperatures. Records the impedance as the damage criterion.              
 
   ![](<https://img.shields.io/badge/sector-battery-ff69b4.svg>)     
 
-- [Panasonic 18650PF Li-ion Battery Data](<https://data.mendeley.com/datasets/wykht8y7tg/1#folder-df7a873b-ae5f-4a63-ab5c-8f9792b59429>)     (data __o__)  
+- [Panasonic 18650PF Li-ion Battery Data](<https://data.mendeley.com/datasets/wykht8y7tg/1#folder-df7a873b-ae5f-4a63-ab5c-8f9792b59429>)     
 
   ![](<https://img.shields.io/badge/sector-battery-ff69b4.svg>)     
 
-- [Cycle Engineering Battery Group](<https://web.calce.umd.edu/batteries/data.htm#undefined>)   (data __o__)  
+- [Cycle Engineering Battery Group](<https://web.calce.umd.edu/batteries/data.htm#undefined>)    
 
   ![](<https://img.shields.io/badge/sector-battery-ff69b4.svg>)   
 
