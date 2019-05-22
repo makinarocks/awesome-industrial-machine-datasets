@@ -6,10 +6,10 @@ PHM Data Challenge 18에서 제공한 데이터는 웨이퍼 제조 공정 내�
 
 ![](https://img.shields.io/badge/sector-semicon-blue.svg)
 ![](https://img.shields.io/badge/labeled-yes-blue.svg)
-![](https://img.shields.io/badge/time--series-yes-blue.svg)  
-
+![](https://img.shields.io/badge/time--series-yes-blue.svg) ![](<https://img.shields.io/badge/simulation-no-red.svg>)        
 
 #### Training data
+
 Training data는 총 60개의 csv파일로 구성되어 있으며, training data인 train 파일 20개, 이상 시점에서만의 이상 정보를 담은 train_fault 파일 20개, ttf 정보를 표시한 train_ttf 파일 20개로 이루어져 있다.  
 
 - 요약  

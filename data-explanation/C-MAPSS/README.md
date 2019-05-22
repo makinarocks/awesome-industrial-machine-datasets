@@ -9,12 +9,14 @@ engine performance에 영향을 주는 three operational settings가 있다.
 각 test data에 대해서, RUL(Remaining Useful Life) values 값이 제공된다.  
 training set에서는, 엔진을 가동하는 것이 좋지 않다고 판단되는 predefined threshold에 도달할 때까지 degradation이 커진다. test set에서는
 완전히 degradation이 되기 전에 시계열 데이터가 종료된다.  
-각 data set마다 26개 sensors를 의미하는 columns가 있다.  
+각 data set마다 26개 sensors를 의미하는 columns가 있다.   
+
+response surfaces of all sensors are generated via a thermo-dynamical simulation model for the engine as a function of variations of flow and efficiency of the modules of interest.  
 
 ![](https://img.shields.io/badge/sector-mechanical-purple.svg)
 ![](https://img.shields.io/badge/labeled-implicit-green.svg)
 ![](https://img.shields.io/badge/time--series-yes-blue.svg)  
-![](https://img.shields.io/badge/time--to--failure-gray.svg)   
+![](https://img.shields.io/badge/time--to--failure-gray.svg) ![](<https://img.shields.io/badge/simulation-yes-blue.svg>)     
 
 - 데이터 부연 설명  
 

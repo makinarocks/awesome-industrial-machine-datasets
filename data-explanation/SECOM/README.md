@@ -7,7 +7,7 @@
 ![](https://img.shields.io/badge/sector-semicon-blue.svg)
 ![](https://img.shields.io/badge/labeled-yes-blue.svg)
 ![](https://img.shields.io/badge/time--series-yes-blue.svg)
-![](https://img.shields.io/badge/feature_selection-gray.svg)  
+![](https://img.shields.io/badge/feature_selection-gray.svg) ![](<https://img.shields.io/badge/simulation-no-red.svg>)         
 
 
 - 참고  

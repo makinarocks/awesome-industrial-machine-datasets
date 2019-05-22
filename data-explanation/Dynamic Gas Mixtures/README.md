@@ -4,9 +4,11 @@
 다양한 concentration levels 하에, 2개의 gas mixtures에 노출된 16개의 chemical sensors 값을 기록한 시계열 데이터베이스이다.  
 각 mixture에 대해서, 12시간 동안 continuous하게 sensor signals 를 얻었다.  
 
+The data set was collected in a gas delivery platform facility at the ChemoSignals Laboratory in the BioCircuits Institute, University of California San Diego.   
+
 ![](https://img.shields.io/badge/sector-chemical-red.svg)
 ![](https://img.shields.io/badge/labeled-yes-blue.svg)
-![](https://img.shields.io/badge/time--series-yes-blue.svg)
+![](https://img.shields.io/badge/time--series-yes-blue.svg) ![](<https://img.shields.io/badge/simulation-yes-blue.svg>)    
 
 - 데이터 요약  
 
