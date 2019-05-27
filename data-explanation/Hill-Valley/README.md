@@ -4,13 +4,9 @@
 
 This is NOT a manufacturing dataset, but looks good for testing pattern detection methods.
 
- ![](https://img.shields.io/badge/sector-etc-black.svg)
+Two simulated data sets, with and without noise. Each record represents 100 points on a twodimensional graph, where the algorithm must classify the series as either a Hill (a “bump” in the terrain) or a Valley (a “dip” in the terrain).
 
- ![](https://img.shields.io/badge/labeled-yes-blue.svg)
-
- ![](https://img.shields.io/badge/time--series-no-red.svg)
-
- ![](https://img.shields.io/badge/hill--valley classification-gray.svg)
+ ![](https://img.shields.io/badge/sector-etc-black.svg) ![](https://img.shields.io/badge/labeled-yes-blue.svg) ![](<https://img.shields.io/badge/simulation-no-red.svg>)![](https://img.shields.io/badge/time--series-no-red.svg) ![](https://img.shields.io/badge/hill--valley classification-gray.svg)
 
 #### Data Set Information:
 
@@ -35,7 +31,7 @@ number of instance
 
 Each record represents 100 points on a two-dimensional graph. When plotted in order (from 1 through 100) as the Y co-ordinate, the points will create either a Hill (a “bump” in the terrain) or a Valley (a “dip” in the terrain). 
 
-![1556516777892](C:\Users\good\AppData\Roaming\Typora\typora-user-images\1556516777892.png)
+![1556516777892](https://github.com/makinarocks/awesome-industrial-machine-datasets/blob/minkyu/data-explanation/Hill-Valley/img/Hill_Valley_visual_examples.jpg)
 
 There are six files, as follows: 
 
@@ -70,3 +66,7 @@ This graphic file shows two example instances from the data.
 [참고자료](https://www.openml.org/d/1566)
 
 task : supervised classification on hill-valley
+
+#### Citation Request:
+
+Please refer to the Machine Learning Repository's [citation policy](https://archive.ics.uci.edu/ml/citation_policy.html)

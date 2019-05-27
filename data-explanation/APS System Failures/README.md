@@ -8,13 +8,7 @@ aps_failure_training_set.csv : 44.7MB (60,000)
 
 The datasets' positive class consists of component failures for a specific component of the APS system. The negative class consists of trucks with failures for components not related to the APS.
 
- ![](https://img.shields.io/badge/sector-etc-black.svg)
-
- ![](https://img.shields.io/badge/labeled-yes-blue.svg)
-
- ![](https://img.shields.io/badge/time--series-no-red.svg)
-
- ![](https://img.shields.io/badge/failure%20classification-gray.svg)
+ ![](https://img.shields.io/badge/sector-etc-black.svg) ![](https://img.shields.io/badge/labeled-yes-blue.svg)![](https://img.shields.io/badge/time--series-no-red.svg) ![](https://img.shields.io/badge/failure%20classification-gray.svg)![](<https://img.shields.io/badge/simulation-no-red.svg>)
 
 #### Data Set Information:
 
@@ -105,3 +99,6 @@ The exploratory analysis of the data enabled to outlined two important condition
 
 (2) high imbalance in the class distribution
 
+#### Citation Request:
+
+Please refer to the Machine Learning Repository's [citation policy](https://archive.ics.uci.edu/ml/citation_policy.html)

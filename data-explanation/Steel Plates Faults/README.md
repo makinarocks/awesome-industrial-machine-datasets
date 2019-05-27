@@ -6,13 +6,9 @@ Faults.NNA : 292KB
 
 Faults27x7 var : 497Byte
 
- ![](https://img.shields.io/badge/sector-steal-gray.svg)
+ ![](https://img.shields.io/badge/sector-steal-gray.svg) ![](https://img.shields.io/badge/labeled-yes-blue.svg)  ![](<https://img.shields.io/badge/simulation-no-red.svg>)![](https://img.shields.io/badge/time--series-no-red.svg)  ![](https://img.shields.io/badge/fault classification-gray.svg)
 
- ![](https://img.shields.io/badge/labeled-yes-blue.svg)
 
- ![](https://img.shields.io/badge/time--series-no-red.svg)
-
- ![](https://img.shields.io/badge/fault classification-gray.svg)
 
 #### Data Set Information
 
@@ -83,3 +79,8 @@ Other_Faults
 **Classification of Six Types of Surface Defects in Stainless Steel Plates**
 
 목표는가능한 6가지 유형의 결함으로 stainless steel plates에서 surface defects의 유형을 정확하게 classify하는 것.
+
+#### Citation Request:
+
+dataset provided by Semeion, Research Center of Sciences of Communication, Via Sersale 117, 00128, Rome, Italy. 
+www.semeion.it
