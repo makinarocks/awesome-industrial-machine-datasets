@@ -40,37 +40,13 @@ ppmv | (50,1000) | (5,500) | (12,1000) | (10,300) | (10,600) | (10,100)
 
 - Attributes 설명    
 
-  why 128-element feature vector per measurement?   
+  Why 128-element feature vector per measurement? MOX gas sensors typically describe a monotonically smooth change in the conductance of the sensing layer due to the adsorption/desorption reaction processes of the exposed chemical analyte substance. We represented each time series with an aggregate of __eight features__ reflecting the sensor response. In particular, we considered two distinct types of features in the creation of this dataset: __two steady-state features__ and __six features__ reflecting the sensor dynamics. The steady-state features include the amplitude of the resistance change, and its normalized value. The transient features were extracted based on the exponential moving average (EMA) to reflect the sensor dynamics of the increasing/decaying transient portion of the sensor responses. The EMA transform evaluates the rising/decaying portions of the sensor resistance by considering the maximum/minimum values of y[k] of the following first-order digital filter:  y[k] = (1-a)y[k-1] + a(x[k] - x[k-1])   
 
-  MOX gas sensors typically describe a monotonically smooth change in the conductance of the sensing
-
-  layer due to the adsorption/desorption reaction processes of the exposed chemical analyte substance.
-
-  We represented each time series with an aggregate of __eight features__ reflecting the sensor response.
-
-  In particular, we considered two distinct types of features in the creation of this dataset: __two steady-state features__ and __six features__ reflecting the sensor dynamics.  
-
-  The steady-state features include the amplitude of the resistance change, and its normalized value.
-
-  The transient features were extracted based on the exponential moving average (EMA) to reflect the
-
-  sensor dynamics of the increasing/decaying transient portion of the sensor responses. The EMA
-
-  transform evaluates the rising/decaying portions of the sensor resistance by considering the
-
-  maximum/minimum values of y[k] of the following first-order digital filter:  
-
-  y[k] = (1-a)y[k-1] + a(x[k] - x[k-1])  
-
-  where 0 < α < 1 is the smoothing parameter of the filter and x[k] is the acquired value at time k. Since different values of α provide different feature values and different information of the transient response, we computed the EMA filter for three values of α = 0.1, 0.01, 0.001 for both the rising and the decaying stages. Therefore, each of the __16 sensors__ used in the study contributes with __8 features__, thereby yielding a __128-element feature vector__ per measurement.  
+  where 0 < α < 1 is the smoothing parameter of the filter and x[k] is the acquired value at time k. Since different values of α provide different feature values and different information of the transient response, we computed the EMA filter for three values of α = 0.1, 0.01, 0.001 for both the rising and the decaying stages. Therefore, each of the __16 sensors__ used in the study contributes with __8 features__, thereby yielding a __128-element feature vector__ per measurement.    
 
    
 
 ### 관련 연구  
-
-1. [Chemical gas sensor array dataset](<https://reader.elsevier.com/reader/sd/pii/S2352340915000050?token=703079EA4C2B27AA2C40FBF241BDEE424D1285B924547E4CD23E1F00225824C7F22E6820460C0D3B21DBA671C31CCD8C>)  
-
-   keywords: concept drift, active learning, and pattern recognition in Machine Learning.   
 
 2. [Chemical gas sensor drift compensation using classifier ensembles](<https://www.researchgate.net/publication/216301619_Gas_sensor_drift_mitigation_using_classifier_ensembles>)   
 
@@ -80,6 +56,10 @@ ppmv | (50,1000) | (5,500) | (12,1000) | (10,300) | (10,600) | (10,100)
    Drift Dataset](<http://www.periyaruniversity.ac.in/ijcii/issue/Vol3No3December2013/IJCII%203-3-111.pdf>)   
 
    keywords: K-Means, Fuzzy C-Means(FCM) and Rough K-Means algorithm    
+   
+3. [Learning Domain-Invariant Subspace using Domain Features and Independence Maximization](<https://arxiv.org/pdf/1603.04535.pdf>)    
+
+4. [Correcting Instrumental Variation and Time-varying Drift: A Transfer Learning Approach with Autoencoders](<http://yanke23.com/papers/preprint_DCAE.pdf>)      
 
 ##### Data Folder Link   
 [https://archive.ics.uci.edu/ml/machine-learning-databases/00270/](https://archive.ics.uci.edu/ml/machine-learning-databases/00270/)    
@@ -87,5 +67,5 @@ ppmv | (50,1000) | (5,500) | (12,1000) | (10,300) | (10,600) | (10,100)
 
 데이터 용량(압축상태)    
 
-9.6MB    
+9.6MB     
 
