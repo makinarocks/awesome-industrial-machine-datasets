@@ -28,7 +28,7 @@ The dataset was gathered from December 2010 to April 2012(16 months) in wind tun
     The dataset also contains time, temperature, and relative humidity information.  
     72개의 metal-oxide gas sensors + time, temperature, relative humidity information = 75개의 측정치 종류 
     The resulting dataset ultimately includes 75-time series composed of 26000 points.  
-    Number of Attributes = 75 * 260* 100 = 1,950,000  (이렇게 곱했을 때 UCI홈페이지에 나와있는 attributes의 수와 일치하는데, 왜 26000을 곱해주는지는 아직 잘 이해되지 않았다.)  
+    Number of Attributes = 75 * 260* 100 = 1,950,000  (Q. 이렇게 곱했을 때 UCI홈페이지에 나와있는 attributes의 수와 일치하는데, 왜 26000을 곱해주는지는 아직 잘 이해되지 않았다.)  
   
   - 10개의 class인 gas의 이름:  
     Acetone, Acetaldehyde, Ammonia, Butanol, Ethylene, Methane, Methanol, Carbon Monoxide, Benzene, Toluene     
@@ -65,20 +65,12 @@ The dataset was gathered from December 2010 to April 2012(16 months) in wind tun
     22.22 63.43 = temperature, humidity values  
     1 = boundary between each sensor module board  
     remaining 80 columns = actual time series values for each measurement -> 이 중에서도 8개의 1은 boundary를 의미하고, 나머지 72개는 앞에서   언급한 72 channels time-series 를 의미함  
-### 관련 연구  
+### 관련 연구    
 
-1. [On the performance of gas sensor arrays in open sampling systems using Inhibitory Support Vector Machines]()
-
-   keywords: Metal-oxide sensors, Support Vector Machines, System calibration, Open sampling system, Sensor array
-
-   Electronic nose   
-
-2. [Dataset from chemical gas sensor array in turbulent wind tunnel](<https://www.sciencedirect.com/science/article/pii/S2352340915000256>) 
-
-   keywords: Chemometrics, Machine olfaction, Electronic nose, Chemical sensing, Machine learning, Open Sampling System    
+__     
 
 ##### 아직 의미가 애매한 것 
-data file 각각을 열어서 본 결과 column의 수는 92개로 동일하였다. row의 수는 다 달랐다. -> row 개수 다른 이유?  
+data file 각각을 열어서 본 결과 column의 수는 92개로 동일하였다. row의 수는 다 달랐다.   
 72 time-series(72 channel) = 72 metal-oxide gas sensor 같은 의미인지 (같은 의미인 것 같다)    
 75 time-series(72 gas sensor + time, temperature, relative humidity information) * 26000 = 1950000이 attributes의 개수인 이유는 무엇인지(이건 좀 이상하다. 72개의 gas sensor과 time, temperature, humidity 총 75개가 attribute여야 하는 것 아닌지 )  
 NA값 있는지? -> data file이 너무 커서 확인하지 못하였다 
