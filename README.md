@@ -60,7 +60,7 @@
 ![](https://img.shields.io/badge/labeled-yes-blue.svg)
 ![](https://img.shields.io/badge/time--series-yes-blue.svg)![](<https://img.shields.io/badge/simulation-yes-blue.svg>)   
 
-* [Dynamic Gas Mixtures](https://archive.ics.uci.edu/ml/datasets/Gas+sensor+array+under+dynamic+gas+mixtures): The data set contains the recordings of 16 chemical sensors exposed to two dynamic gas mixtures at varying concentrations. For each mixture, signals were acquired continuously during 12 hours.
+* [Dynamic Gas Mixtures](https://archive.ics.uci.edu/ml/datasets/Gas+sensor+array+under+dynamic+gas+mixtures): The data set contains the recordings of 16 chemical sensors exposed to two dynamic gas mixtures at varying concentrations. For each mixture, signals were acquired continuously during 12 hours.   
 ![](https://img.shields.io/badge/sector-chemical-red.svg)
 ![](https://img.shields.io/badge/labeled-yes-blue.svg)
 ![](https://img.shields.io/badge/time--series-yes-blue.svg)![](<https://img.shields.io/badge/simulation-yes-blue.svg>)  
@@ -90,7 +90,7 @@
 
 * [PHM Data Challenge 17](<https://www.phmsociety.org/events/conference/phm/17/data-challenge>) : predict faulty regimes of operation of a train car using the data provided and physics-based modeling methods.     
 
-![](https://img.shields.io/badge/sector-mechanical-purple.svg)   
+  ![](https://img.shields.io/badge/sector-mechanical-purple.svg)    
 
 ### Steel
 
