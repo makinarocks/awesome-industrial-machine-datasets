@@ -48,15 +48,15 @@ ppmv | (50,1000) | (5,500) | (12,1000) | (10,300) | (10,600) | (10,100)
 
 ### 관련 연구  
 
-2. [Chemical gas sensor drift compensation using classifier ensembles](<https://www.researchgate.net/publication/216301619_Gas_sensor_drift_mitigation_using_classifier_ensembles>)   
+1. [Chemical gas sensor drift compensation using classifier ensembles](<https://www.researchgate.net/publication/216301619_Gas_sensor_drift_mitigation_using_classifier_ensembles>)    
 
    keywords: sensor drift, chemical sensing, time series classification, ensemble methods, support vector machines   
 
-3. [Effective Clustering Algorithm for Gas Sensor Array
+2. [Effective Clustering Algorithm for Gas Sensor Array
    Drift Dataset](<http://www.periyaruniversity.ac.in/ijcii/issue/Vol3No3December2013/IJCII%203-3-111.pdf>)   
 
    keywords: K-Means, Fuzzy C-Means(FCM) and Rough K-Means algorithm    
-   
+
 3. [Learning Domain-Invariant Subspace using Domain Features and Independence Maximization](<https://arxiv.org/pdf/1603.04535.pdf>)    
 
 4. [Correcting Instrumental Variation and Time-varying Drift: A Transfer Learning Approach with Autoencoders](<http://yanke23.com/papers/preprint_DCAE.pdf>)      
