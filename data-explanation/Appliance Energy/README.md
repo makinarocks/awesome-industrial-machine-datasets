@@ -6,7 +6,7 @@
 
 Experimental data used to create regression models of appliance energy use in a low energy building
 
- ![](https://img.shields.io/badge/sector-power-skyblue.svg) ![](https://img.shields.io/badge/label-yes-blue.svg) ![](https://img.shields.io/badge/time--series-yes-blue.svg) ![](https://img.shields.io/badge/house environment-gray.svg)  ![](<https://img.shields.io/badge/experimental+real-green.svg>)
+ ![](https://img.shields.io/badge/sector-power-skyblue.svg)   ![](https://img.shields.io/badge/house_environment-gray.svg)  ![](https://img.shields.io/badge/label-yes-blue.svg) ![](https://img.shields.io/badge/time--series-yes-blue.svg)  ![](<https://img.shields.io/badge/experimental+real-green.svg>)
 
 #### Data Set Information
 | Data Set Characteristics  | Attribute Characteristics | Associated Tasks |
