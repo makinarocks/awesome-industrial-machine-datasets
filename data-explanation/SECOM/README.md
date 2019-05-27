@@ -34,14 +34,12 @@ Number of pass | Number of fail | total
 
 #### 관련 연구  
 
-1. [Predictive Models for Equipment Fault Detection in the
-   Semiconductor Manufacturing Process ](<http://www.ijetch.org/vol8/898-T10023.pdf>) - 여러 개의 전통적인 머신러닝 방법론 들을 사용한 듯?  
-
-2. [Machine learning for sensor-based manufacturing processes](<https://ieeexplore.ieee.org/document/8116997>)   
-
-   keywords: feature selection, random forest, gradient boosted trees , PCA, Logistic Regression  
-
-   
+1. [redictive Models for Equipment Fault Detection in the Semiconductor Manufacturing Process](http://www.ijetch.org/vol8/898-T10023.pdf)   
+2. [Machine learning for sensor-based manufacturing processes](https://ieeexplore.ieee.org/document/8116997) : keywords: feature selection, random forest, gradient boosted trees , PCA, Logistic Regression   
+3. [Rare Class Discovery Techniques for Highly Imbalanced Data](<http://www.iaeng.org/publication/IMECS2013/IMECS2013_pp269-272.pdf>)    
+4. [Feature Selection and Boosting Techniques to Improve Fault Detection Accuracy in the Semiconductor Manufacturing Process](<http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.421.3370&rep=rep1&type=pdf>)]   
+5. [Data Imbalance Problem solving for SMOTE Based Oversampling: Study on Fault Detection Prediction
+   Model in Semiconductor Manufacturing Process](<https://pdfs.semanticscholar.org/df3b/537f5912bef4dca1659bae8ef360bbf69782.pdf>)       
 
 
 ##### Data Folder Link  
