@@ -65,7 +65,7 @@ The dataset was gathered from December 2010 to April 2012(16 months) in wind tun
     22.22 63.43 = temperature, humidity values  
     1 = boundary between each sensor module board  
     remaining 80 columns = actual time series values for each measurement -> 이 중에서도 8개의 1은 boundary를 의미하고, 나머지 72개는 앞에서   언급한 72 channels time-series 를 의미함  
-### Paper      
+#### Paper          
 
 N/A       
 
