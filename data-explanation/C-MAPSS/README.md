@@ -18,6 +18,8 @@ response surfaces of all sensors are generated via a thermo-dynamical simulation
 ![](https://img.shields.io/badge/time--series-yes-blue.svg)  
 ![](https://img.shields.io/badge/time--to--failure-gray.svg) ![](<https://img.shields.io/badge/simulation-yes-blue.svg>)     
 
+#### Data Set Information  
+
 - 데이터 부연 설명  
 
 각 엔진은 초기에 약간의 wear(마모)가 있고 manufacturing variation이 있지만 이는 정상적인 것으로 간주된다.  
@@ -70,7 +72,7 @@ The columns correspond to:
   RUL dataset에서 각 element값이 각 test set에서 어떤 timestep에서의 RUL 값을 의미하는건지 -> 각 test set의 unit number의 max 수만큼 RUL값이 있다.  
   RUL_FD001에서, 첫번째 row에 있는 값의 의미 = test_FD001에서 unit number = 1 에 해당하는 operation의 RUL 값 -> 시점 기준이 last cycle 인지 first cycle인지 모르겠다.  
 
-### 관련 연구  
+#### Paper    
 
 1. [Long Short-Term Memory Network for Remaining
    Useful Life Estimation](<http://www.hitachi-america.us/rd/about_us/bdl/docs/LSTM_RUL.PDF>)   
@@ -82,7 +84,9 @@ The columns correspond to:
 
    keywords: LSTM, CNN, MLP    
 
+#### Citations  
 
+A. Saxena and K. Goebel (2008). "Turbofan Engine Degradation Simulation Data Set", NASA Ames Prognostics Data Repository (http://ti.arc.nasa.gov/project/prognostic-data-repository), NASA Ames Research Center, Moffett Field, CA    
 
 ##### Data Download Link  
 [https://ti.arc.nasa.gov/c/6/](https://ti.arc.nasa.gov/c/6/)   

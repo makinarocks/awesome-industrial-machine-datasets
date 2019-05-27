@@ -10,6 +10,8 @@ The data set was collected in a gas delivery platform facility at the ChemoSigna
 ![](https://img.shields.io/badge/labeled-yes-blue.svg)
 ![](https://img.shields.io/badge/time--series-yes-blue.svg) ![](<https://img.shields.io/badge/simulation-yes-blue.svg>)    
 
+#### Data Set Information  
+
 - 데이터 요약  
 
 Data Set Characteristics | Attribute Characteristics | Associated Tasks  
@@ -32,7 +34,7 @@ Sensor의 순서 = TGS2602; TGS2602; TGS2600; TGS2600; TGS2610; TGS2610; TGS2620
   클래스 개수(Ethylene and Methane/ Ethylene and CO)  
   NA값 존재하는지? -> jupyter 상에서 조사해 본 결과 없었음   
 
-### 관련 연구  
+#### Paper  
 
 1. [kaggle](<https://www.kaggle.com/uciml/gas-sensor-array-under-dynamic-gas-mixtures>)   
 
@@ -42,8 +44,12 @@ Sensor의 순서 = TGS2602; TGS2602; TGS2600; TGS2600; TGS2610; TGS2610; TGS2620
 
    keywords: CNN, LSTM, LS-SVM   
 
+#### Citation   
 
-##### Data Folder Link   
+Citation of Fonollosa et al. 'Reservoir Computing compensates slow response of chemosensor arrays exposed to fast varying gas concentrations in continuous monitoring'; Sensors and Actuators B, 2015 is required.    
+
+
+##### Data Download Link   
 [https://archive.ics.uci.edu/ml/machine-learning-databases/00322/](https://archive.ics.uci.edu/ml/machine-learning-databases/00322/)   
 
 데이터 용량(압축상태):   

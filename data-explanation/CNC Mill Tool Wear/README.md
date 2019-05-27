@@ -11,9 +11,9 @@ A series of machining experiments were run on 2" x 2" x 1.5" wax blocks in a CNC
 ![](https://img.shields.io/badge/labeled-meta--only-yellow.svg)
 ![](https://img.shields.io/badge/time--series-yes-blue.svg)  
 ![](https://img.shields.io/badge/tool_wear_detection-gray.svg)
-![](https://img.shields.io/badge/detection_of_inadequate_clamping-gray.svg) ![](<https://img.shields.io/badge/simulation-yes-blue.svg>)    
+![](https://img.shields.io/badge/detection_of_inadequate_clamping-gray.svg) ![](<https://img.shields.io/badge/simulation-yes-blue.svg>)      
 
-
+#### Data Set Information  
 
 - Data Set 
 
@@ -30,8 +30,6 @@ experiment_07.csv | 566 | experiment_16.csv | 603
 experiment_08.csv | 606 | experiment_17.csv | 2151 
 experiment_09.csv | 741 | experiment_18.csv | 2254 
  |  | Train.csv | 18 
-
-
 
 
 
@@ -108,18 +106,13 @@ tool_condition 변수에 tool이 unworn인지 worn인지에 대한 여부가 나
 
   (2) Taking each one of the 18 experiments (the entire time series) as an observation for time series classification     
 
-  
-
-
-### 관련 연구   
+#### Paper  
 
 1. [CNC Machine Tool’s wear diagnostic and prognostic by
-   using dynamic bayesian networks](<https://hal.archives-ouvertes.fr/hal-00672204/document>)    
+   using dynamic bayesian networks](<https://hal.archives-ouvertes.fr/hal-00672204/document>)      
 
-   keywords: dynamic bayesian networks, Diagnostic, Prognostic, Remaining Useful Life, Condition
-   Based Maintenance, Hidden Markov Models, Monitoring data, Tool wear     
-
-   
+keywords: dynamic bayesian networks, Diagnostic, Prognostic, Remaining Useful Life, Condition
+Based Maintenance, Hidden Markov Models, Monitoring data, Tool wear     
 
 
 ##### Data Download Link   

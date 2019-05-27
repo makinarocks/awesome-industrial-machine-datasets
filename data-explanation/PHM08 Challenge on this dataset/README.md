@@ -11,6 +11,8 @@ The data are provided as a zip-compressed text file with 26 columns of numbers, 
 ![](https://img.shields.io/badge/competition-gray.svg)
 ![](https://img.shields.io/badge/scoring_and_ranking-gray.svg) ![](<https://img.shields.io/badge/simulation-yes-blue.svg>)      
 
+#### Data Set Information   
+
 - Attribute Explanation   
 
 각 dataset마다 26개의 columns가 있다.  
@@ -36,16 +38,16 @@ The columns correspond to:
   (Once algorithms are trained to satisfaction, users can apply them to the final test dataset contained in the file named final_test.txt. )  
   final score은 RUL errors의 weighted sum 이다.    
 
-### 관련 연구  
+#### Paper   
 
 1. [Long Short-Term Memory Network for Remaining
-   Useful Life Estimation](<http://www.hitachi-america.us/rd/about_us/bdl/docs/LSTM_RUL.PDF>)   
+   Useful Life Estimation](<http://www.hitachi-america.us/rd/about_us/bdl/docs/LSTM_RUL.PDF>)    
 
-   keywords: LSTM, Multi-Layer Perceptron (MLP), Support Vector Regression (SVR), Relevance Vector Regression (RVR) and Convolutional Neural Network (CNN)  
+   keywords: LSTM, Multi-Layer Perceptron (MLP), Support Vector Regression (SVR), Relevance Vector Regression (RVR) and Convolutional Neural Network (CNN)    
 
 
-##### Data Folder Link  
-[https://ti.arc.nasa.gov/c/13/](https://ti.arc.nasa.gov/c/13/)   
+##### Data Folder Link   
+[https://ti.arc.nasa.gov/c/13/](https://ti.arc.nasa.gov/c/13/)    
 
 데이터 용량(압축상태):  
 
