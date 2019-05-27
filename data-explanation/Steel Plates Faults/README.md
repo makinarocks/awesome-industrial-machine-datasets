@@ -6,7 +6,7 @@ Faults.NNA : 292KB
 
 Faults27x7 var : 497Byte
 
- ![](https://img.shields.io/badge/sector-steal-gray.svg) ![](https://img.shields.io/badge/labeled-yes-blue.svg)  ![](<https://img.shields.io/badge/simulation-no-red.svg>)![](https://img.shields.io/badge/time--series-no-red.svg)  ![](https://img.shields.io/badge/fault classification-gray.svg)
+ ![](https://img.shields.io/badge/sector-steal-gray.svg) ![](https://img.shields.io/badge/labeled-yes-blue.svg)  ![](<https://img.shields.io/badge/simulation-no-red.svg>) ![](https://img.shields.io/badge/time--series-no-red.svg)  ![](https://img.shields.io/badge/fault_classification-gray.svg)
 
 #### Data Set Information
 

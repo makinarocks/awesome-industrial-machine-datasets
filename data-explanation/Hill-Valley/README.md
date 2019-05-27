@@ -1,6 +1,7 @@
 # Hill-Valley Data Set
 
-[data](https://archive.ics.uci.edu/ml/datasets/Hill-Valley)
+[data](https://archive.ics.uci.edu/ml/datasets/Hill-Valley)    
+
 Hill_Valley_with_noise_Training.data (417.4KB)
 Hill_Valley_with_noise_Testing.data (420.9KB)
 Hill_Valley_without_noise_Training.data (722.7KB)
@@ -10,9 +11,9 @@ This is NOT a manufacturing dataset, but looks good for testing pattern detectio
 
 Two simulated data sets, with and without noise. Each record represents 100 points on a twodimensional graph, where the algorithm must classify the series as either a Hill (a “bump” in the terrain) or a Valley (a “dip” in the terrain).
 
-![](https://img.shields.io/badge/sector-etc-black.svg) ![](https://img.shields.io/badge/labeled-yes-blue.svg) ![](<https://img.shields.io/badge/simulation-no-red.svg>)![](https://img.shields.io/badge/time--series-no-red.svg) ![](https://img.shields.io/badge/hill--valley classification-gray.svg)
+![](https://img.shields.io/badge/sector-etc-black.svg) ![](https://img.shields.io/badge/labeled-yes-blue.svg) ![](<https://img.shields.io/badge/simulation-no-red.svg>) ![](https://img.shields.io/badge/time--series-no-red.svg)
 
->>>>>#### Data Set Information:
+#### Data Set Information:
 
 | Data Set Characteristics | Attribute Characteristics | Associated Tasks |
 | ------------------------ | ------------------------- | ---------------- |
@@ -39,12 +40,12 @@ Each record represents 100 points on a two-dimensional graph. When plotted in or
 
 There are six files, as follows: 
 
-(a) Hill_Valley_without_noise_Training.data (class distribution : 305/301)
+(a) Hill_Valley_without_noise_Training.data (class distribution : 305/301)  
 (b) Hill_Valley_without_noise_Testing.data (295/311)
 
 These first two datasets (without noise) are a training/testing set pair where the hills or valleys have a smooth transition. 
 
-(c) Hill_Valley_with_noise_Training.data (307/299)
+(c) Hill_Valley_with_noise_Training.data (307/299)  
 (d) Hill_Valley_with_noise_Testing.data (299/307)
 
 These next two datasets (with noise) are a training/testing set pair where the terrain is uneven, and the hill or valley is not as obvious when viewed closely. 

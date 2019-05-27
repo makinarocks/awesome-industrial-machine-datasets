@@ -30,20 +30,17 @@ Data have been generated from a sophisticated simulator of a Gas Turbines (GT), 
 - Compressor degradation coefficient kMc. 
 - Turbine degradation coefficient kMt. 
 
-**so that each possible degradation state can be described by a combination of this triple (lp,kMt,kMc). **
+so that each possible degradation state can be described by a combination of this triple (lp,kMt,kMc). 
 
 compressor와 turbine의 감쇄 범위는 정확히 0.001의 균등한 grid로 sampling되었으므로 표현의 세분화가 잘 됨. 
 
-In particular for the compressor decay state discretization the kMc coefficient has been investigated in the domain [1; 0.95], and the turbine coefficient in the domain [1; 0.975]. 
-<<<<<<< HEAD
-Ship speed has been investigated sampling the range of feasible speed from 3 knots to 27 knots with a granularity of representation equal to three knots. 
+In particular for the compressor decay state discretization the kMc coefficient has been investigated in the domain [1; 0.95], and the turbine coefficient in the domain [1; 0.975]. Ship speed has been investigated sampling the range of feasible speed from 3 knots to 27 knots with a granularity of representation equal to three knots. 
 
 성능 저하의 영향을 받는 system의 상태를 간접적으로 나타내는 일련의 측정(16개의 features)이 수집되어 parameter's space에 저장됨
 
-=======
 Ship speed has been investigated sampling the range of feasible speed from 3 knots to 27 knots with a granularity of representation equal to **three knots(3~27사이로 3씩 커짐)**. 
 
->>>>>>> A series of measures (16 features) which indirectly represents of the state of the system subject to performance decay has been acquired and stored in the dataset over the parameter's space. 
+A series of measures (16 features) which indirectly represents of the state of the system subject to performance decay has been acquired and stored in the dataset over the parameter's space. 
 
 #### Variables
 
@@ -71,7 +68,6 @@ A 16-feature vector containing the GT measures at steady state of the physical a
 17 - GT Compressor decay state coefficient. (kMc) 
 
 - 0.95~1사이의 값, 0.001씩 커짐
->>>>>>> 5c5c6ffd266ab18774bb591cb91f3ef5bf66c428
 
 18 - GT Turbine decay state coefficient. (kMt)
 
