@@ -1,14 +1,18 @@
 # Hill-Valley Data Set
 
 [data](https://archive.ics.uci.edu/ml/datasets/Hill-Valley)
+Hill_Valley_with_noise_Training.data (417.4KB)
+Hill_Valley_with_noise_Testing.data (420.9KB)
+Hill_Valley_without_noise_Training.data (722.7KB)
+Hill_Valley_without_noise_Testing.data (722.8KB)
 
 This is NOT a manufacturing dataset, but looks good for testing pattern detection methods.
 
 Two simulated data sets, with and without noise. Each record represents 100 points on a twodimensional graph, where the algorithm must classify the series as either a Hill (a “bump” in the terrain) or a Valley (a “dip” in the terrain).
 
- ![](https://img.shields.io/badge/sector-etc-black.svg) ![](https://img.shields.io/badge/labeled-yes-blue.svg) ![](<https://img.shields.io/badge/simulation-no-red.svg>)![](https://img.shields.io/badge/time--series-no-red.svg) ![](https://img.shields.io/badge/hill--valley classification-gray.svg)
+![](https://img.shields.io/badge/sector-etc-black.svg) ![](https://img.shields.io/badge/labeled-yes-blue.svg) ![](<https://img.shields.io/badge/simulation-no-red.svg>)![](https://img.shields.io/badge/time--series-no-red.svg) ![](https://img.shields.io/badge/hill--valley classification-gray.svg)
 
-#### Data Set Information:
+>>>>>#### Data Set Information:
 
 | Data Set Characteristics | Attribute Characteristics | Associated Tasks |
 | ------------------------ | ------------------------- | ---------------- |
@@ -70,3 +74,5 @@ task : supervised classification on hill-valley
 #### Citation Request:
 
 Please refer to the Machine Learning Repository's [citation policy](https://archive.ics.uci.edu/ml/citation_policy.html)
+
+>>>

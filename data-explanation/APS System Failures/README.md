@@ -8,7 +8,7 @@ aps_failure_training_set.csv : 44.7MB (60,000)
 
 The datasets' positive class consists of component failures for a specific component of the APS system. The negative class consists of trucks with failures for components not related to the APS.
 
- ![](https://img.shields.io/badge/sector-etc-black.svg) ![](https://img.shields.io/badge/labeled-yes-blue.svg)![](https://img.shields.io/badge/time--series-no-red.svg) ![](https://img.shields.io/badge/failure%20classification-gray.svg)![](<https://img.shields.io/badge/simulation-no-red.svg>)
+![](https://img.shields.io/badge/sector-etc-black.svg) ![](https://img.shields.io/badge/labeled-yes-blue.svg)![](https://img.shields.io/badge/time--series-no-red.svg) ![](https://img.shields.io/badge/failure%20classification-gray.svg)![](<https://img.shields.io/badge/simulation-no-red.svg>)
 
 #### Data Set Information:
 
@@ -20,7 +20,6 @@ The datasets' positive class consists of component failures for a specific compo
 | ------------------- | -------------------- | ---- | ---- |
 | 60000               | 171                  |      |      |
 
-#### Relevant Information: 
 **Introduction**
 The dataset consists of data collected from heavy Scania trucks in everyday usage.
 
@@ -52,12 +51,12 @@ In this case Cost_1 refers to the cost that an unnecessary check needs to be don
 
 Total_cost = Cost_1 * Num_Instances + Cost_2 * Num_Instances. 
 
-#### Number of Instances: 
+**Number of Instances: **
+
 The training set contains 60000 examples in total in which 59000 belong to the negative class and 1000 positive class. The test set contains 16000 examples. 
 
-#### Number of Attributes: 171 
+**Attribute Information: **
 
-#### Attribute Information: 
 The attribute names of the data have been **anonymized** for proprietary reasons. It consists of both single numerical counters and histograms consisting of bins with different conditions. Typically the histograms have open-ended conditions at each end. For example if we measuring the ambient temperature 'T' then the histogram could be defined with 4 bins where: 
 
 bin 1 collect values for temperature T < -20 

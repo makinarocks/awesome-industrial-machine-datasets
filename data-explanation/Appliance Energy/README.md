@@ -8,8 +8,7 @@ Experimental data used to create regression models of appliance energy use in a 
 
  ![](https://img.shields.io/badge/sector-power-skyblue.svg)![](https://img.shields.io/badge/label-yes-blue.svg)![](https://img.shields.io/badge/time--series-yes-blue.svg)![](https://img.shields.io/badge/house environment-gray.svg)![](<https://img.shields.io/badge/experimental+real-green.svg>)
 
-### Data Set Information
-
+#### Data Set Information
 | Data Set Characteristics  | Attribute Characteristics | Associated Tasks |
 | ------------------------- | ------------------------- | ---------------- |
 | Multivariate, Time-Series | Real                      | Regression       |
@@ -79,3 +78,5 @@ The best model (GBM) was able to explain 97% of the variance (*R*2) in the train
 #### Citation Request:
 
 Luis M. Candanedo, Veronique Feldheim, Dominique Deramaix, Data driven prediction models of energy use of appliances in a low-energy house, Energy and Buildings, Volume 140, 1 April 2017, Pages 81-97, ISSN 0378-7788, [[Web Link\]](http://dx.doi.org/10.1016/j.enbuild.2017.01.083).
+
+>>>>>>

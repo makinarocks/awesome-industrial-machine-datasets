@@ -24,7 +24,7 @@ Data have been generated from a sophisticated simulator of a Gas Turbines (GT), 
 >
 > 이 release of the simulator에서는 GT compressor and turbines와 같은 GT 구성요소의 성능 저하를 고려할 수도 있음
 >
-> **The propulsion system behaviour has been described with this parameters:**
+**The propulsion system behaviour has been described with this parameters:**
 
 - Ship speed (linear function of the lever position lp). 
 - Compressor degradation coefficient kMc. 
@@ -35,11 +35,15 @@ Data have been generated from a sophisticated simulator of a Gas Turbines (GT), 
 compressor와 turbine의 감쇄 범위는 정확히 0.001의 균등한 grid로 sampling되었으므로 표현의 세분화가 잘 됨. 
 
 In particular for the compressor decay state discretization the kMc coefficient has been investigated in the domain [1; 0.95], and the turbine coefficient in the domain [1; 0.975]. 
+<<<<<<< HEAD
 Ship speed has been investigated sampling the range of feasible speed from 3 knots to 27 knots with a granularity of representation equal to three knots. 
 
 성능 저하의 영향을 받는 system의 상태를 간접적으로 나타내는 일련의 측정(16개의 features)이 수집되어 parameter's space에 저장됨
 
-A series of measures (16 features) which indirectly represents of the state of the system subject to performance decay has been acquired and stored in the dataset over the parameter's space. 
+=======
+Ship speed has been investigated sampling the range of feasible speed from 3 knots to 27 knots with a granularity of representation equal to **three knots(3~27사이로 3씩 커짐)**. 
+
+>>>>>>> A series of measures (16 features) which indirectly represents of the state of the system subject to performance decay has been acquired and stored in the dataset over the parameter's space. 
 
 #### Variables
 
@@ -64,6 +68,11 @@ A 16-feature vector containing the GT measures at steady state of the physical a
 
 17 - GT Compressor decay state coefficient. (kMc, 0.95~1) 
 
+17 - GT Compressor decay state coefficient. (kMc) 
+
+- 0.95~1사이의 값, 0.001씩 커짐
+>>>>>>> 5c5c6ffd266ab18774bb591cb91f3ef5bf66c428
+
 18 - GT Turbine decay state coefficient. (kMt)
 
 **NOTE**
@@ -73,7 +82,7 @@ A 16-feature vector containing the GT measures at steady state of the physical a
 
 #### Paper
 
-[Condition-Based Maintenance of Naval Propulsion Systems with supervised Data Analysis](https://www.sciencedirect.com/science/article/pii/S0029801817307242) 
+[Condition-Based Maintenance of Naval Propulsion Systems with supervised Data Analysis](https://github.com/makinarocks/awesome-industrial-machine-datasets/blob/master/data-explanation/Naval%20Propulsion%20Plants/Cipollini_etal_OE_2018_Condition_based_maintenance_of_naval_propulsion_systems_with_supervised_data_analysis.pdf) 
 
 **highlights**
 
