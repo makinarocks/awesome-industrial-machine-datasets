@@ -90,10 +90,7 @@
 * [Steel Plates Faults](https://github.com/makinarocks/awesome-industrial-machine-datasets/blob/minkyu/data-explanation/Steel%20Plates%20Faults/README.md).  
   ![](https://img.shields.io/badge/sector-steel-lightgray.svg)
   ![](https://img.shields.io/badge/labeled-yes-blue.svg)
-  ![](https://img.shields.io/badge/time--series-no-red.svg)  
-  ![](https://img.shields.io/badge/fault_classification-gray.svg)
-
-   ![](<https://img.shields.io/badge/simulation-no-red.svg>)
+  ![](https://img.shields.io/badge/time--series-no-red.svg)![](https://img.shields.io/badge/fault_classification-gray.svg)![](<https://img.shields.io/badge/simulation-no-red.svg>)
 
 ### Power
 
@@ -101,23 +98,17 @@
   ![](https://img.shields.io/badge/sector-power-lightblue.svg)
   ![](https://img.shields.io/badge/labeled-yes-blue.svg)
   ![](https://img.shields.io/badge/time--series-yes-blue.svg)  
-  ![](https://img.shields.io/badge/house_environment-gray.svg) 
-
-  ![](<https://img.shields.io/badge/experimental+real-green.svg>) 
+  ![](https://img.shields.io/badge/house_environment-gray.svg)![](<https://img.shields.io/badge/experimental+real-green.svg>) 
 
 * [Combined Cycle Power Plant](https://github.com/makinarocks/awesome-industrial-machine-datasets/tree/minkyu/data-explanation/Combined%20Cycle%20Power%20Plant/README.md): Combined Cycle Power Plant over 6 years.  
   ![](https://img.shields.io/badge/sector-power-lightblue.svg)
   ![](https://img.shields.io/badge/labeled-yes-blue.svg)
-  ![](https://img.shields.io/badge/time--series-no-red.svg)
-
-   ![](<https://img.shields.io/badge/simulation-no-red.svg>)
+  ![](https://img.shields.io/badge/time--series-no-red.svg)![](<https://img.shields.io/badge/simulation-no-red.svg>)
 
 - [GREEND](https://sourceforge.net/projects/greend/) : GREEND is an energy dataset containing power measurements collected from multiple households in Austria and Italy. It provides detailed energy profiles on a per device basis with a sampling rate of 1 Hz.
 
   ![](https://img.shields.io/badge/sector-power-lightblue.svg)
   ![](https://img.shields.io/badge/labeled-implicit-green.svg)
-
-- 
 
 - [Eco(Electricity Consumption & Occupancy)](http://vs.inf.ethz.ch/res/show.html?what=eco-data) : The ECO data set is a comprehensive data set for non-intrusive load monitoring and occupancy detection research. It was collected in 6 Swiss households over a period of 8 months. For each of the households, the ECO data set provides
 
@@ -138,9 +129,7 @@
   ![](https://img.shields.io/badge/sector-etc-333333.svg)
   ![](https://img.shields.io/badge/labeled-yes-blue.svg)
   ![](https://img.shields.io/badge/time--series-no-red.svg)  
-  ![](https://img.shields.io/badge/hill--valley_classification-gray.svg)
-
-   ![](https://img.shields.io/badge/simulation-no-red.svg)
+  ![](https://img.shields.io/badge/hill--valley_classification-gray.svg)![](https://img.shields.io/badge/simulation-no-red.svg)
 
 * [Machine Failures](https://github.com/makinarocks/awesome-industrial-machine-datasets/tree/minkyu/data-explanation/Machine%20failure/README.md)  
   ![](https://img.shields.io/badge/sector-etc-333333.svg)
@@ -152,9 +141,7 @@
   ![](https://img.shields.io/badge/sector-etc-333333.svg)
   ![](https://img.shields.io/badge/labeled-yes-blue.svg)
   ![](https://img.shields.io/badge/time--series-no-red.svg)  
-  ![](https://img.shields.io/badge/failure_classification-gray.svg)
-
-  ![](<https://img.shields.io/badge/simulation-no-red.svg>)   
+  ![](https://img.shields.io/badge/failure_classification-gray.svg)![](<https://img.shields.io/badge/simulation-no-red.svg>)   
   [IDA2016 Challenge: Chanllenge on this dataset](https://archive.ics.uci.edu/ml/datasets/IDA2016Challenge)  
   ![](https://img.shields.io/badge/competition-gray.svg)
   ![](https://img.shields.io/badge/scoring_and_ranking-gray.svg)
