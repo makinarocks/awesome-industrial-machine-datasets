@@ -120,7 +120,7 @@ Data Capacity(Compressed):
 
 2.56MB   
 
-Data Capacity(Compressed):   
+Data Capacity(Raw):   
 
 11.6MB   
 
