@@ -2,7 +2,7 @@
 ## Semicon
 ### [PHM DATA Challenge 18](https://www.phmsociety.org/events/conference/phm/18/data-challenge): Etching tool fault detection (PdM)  
 
-PHM Data Challenge 18에서 제공한 데이터는 웨이퍼 제조 공정 내에서, ion mill etch tools의 fault behavior을 조사하기 위한 목적으로 제공되었다. 다양한 설정 조건 하에서 작동하는 ion mill etching tools 로부터, 시간 순으로 센서 데이터를 수집한 데이터베이스이다.  
+The data provided by PHM Data Challenge 18 was provided to investigate the fault behavior of ion mill etch tools in the wafer manufacturing process. It is a database that collects sensor data in time sequence from ion mill etching tools operating under various setting conditions.    
 
 ![](https://img.shields.io/badge/sector-semicon-blue.svg)
 ![](https://img.shields.io/badge/labeled-yes-blue.svg)
@@ -12,15 +12,15 @@ PHM Data Challenge 18에서 제공한 데이터는 웨이퍼 제조 공정 내�
 
 __Training data__   
 
-Training data는 총 60개의 csv파일로 구성되어 있으며, training data인 train 파일 20개, 이상 시점에서만의 이상 정보를 담은 train_fault 파일 20개, ttf 정보를 표시한 train_ttf 파일 20개로 이루어져 있다.  
+The training data consists of 60 csv files. It consists of 20 train files, which are training data, 20 train_fault files containing abnormal information only at abnormal points, and 20 train_ttf files, which show ttf information.   
 
-- 데이터 요약   
+- Data Summary   
 
-이상 데이터 개수| 정상 데이터 개수 | 총 데이터 개수  
+\# of abnormal data| \# of normal data | \# of total data 
 ---- | ---- | ----  
 1,236 | 82,188,204 | 82,189,440   
 
-- Train 파일 20개는 총 82,189,440개의 row로 이루어져 있으며, 24개의 column으로 구성된다. 24개의 column 정보는 아래와 같다.   
+- 20 'train' files consist of 82,189,440 rows and consist of 24 columns. The information of 24 columns is as follows.       
 
 ID#| Parameter Name | Type | Description
 ---- | ---- | ---- | ----
@@ -49,8 +49,7 @@ S22 | ETCHAUXSOURCETIMER | Numeric | counter of the use for the chamber shields 
 S23 | ETCHAUX2SOURCETIMER | Numeric | counter of the use for the chamber shields consumable
 S24 | ACTUALSTEPDURATION | Numeric(Sensor) | measured time duration for a particular step
 
-
-- Train_fault 파일 20개는 총 1,236개의 row로 이루어져 있으며, 3개의 column으로 구성된다. 
+- 20 'train_fault' files consist of a total of 1,236 rows and consist of three columns.    
 
 ID#| Parameter Name | Type | Description
 ---- | ---- | ---- | ----
@@ -58,7 +57,7 @@ F1 | time | Numeric | time
 F2 | fault_name | Categorical | name of the particular class of fault that occurred at the specified time
 F3 | stage | Categorical | - 
 
-- Train_ttf 파일 20개는 총 82,189,440개의 row로 이루어져 있으며, 4개의 column으로 구성된다.     
+- 20 'train_ttf' files consist of a total of  82,189,440 rows and consist of four columns.      
 
 Parameter Name | Type
 ---- | ----
@@ -69,21 +68,21 @@ TTF_Flowcool leak | Numeric
 
 __Test data__    
 
-- Test data는 5개의 csv파일로 이루어져 있다. 총 7,198,948개의 row로 이루어져 있으며, 24개의 column으로 구성된다.   
+- The test data consists of 5 csv files. It consists of 7,198,948 rows and consists of 24 columns.      
 
-####  Data challenge의 task(목적)     
+####  Data challenge의 task(Purpose)      
 
-이 PHM data challenge 의 목적은 다음 두 가지와 같다.  
+The purpose of this PHM data challenge is as follows.   
 
 1. Diagnose failure(i.e detect and identify)  
 2. Determine time remaining until next failure (i.e predict remaining useful life)  
 
 #### Paper   
 
-PHM data challenge 2018에서 제공한 데이터를 사용한 것은 아니지만, [2018 PHM Society Conference brochure (2018-09-22).pdf](<https://www.phmsociety.org/sites/phmsociety.org/files/2018%20PHM%20Society%20Conference%20brochure%20(2018-09-22).pdf>) 의 paper session에 등록되어 있는 몇가지 논문을 첨부하였다.  
+These are not the papers provided by PHM data Challenge 2018 , attached are some of the papers listed in this paper session of [2018 PHM Society Conference brochure (2018-09-22).pdf](<https://www.phmsociety.org/sites/phmsociety.org/files/2018%20PHM%20Society%20Conference%20brochure%20(2018-09-22).pdf>)     
 
 1. [A Data Driven Health Monitoring Approach to Extending Small
-   Sats Mission](https://www.phmpapers.org/index.php/phmconf/article/download/573/phmc_18_573) - Prognostics    
+   Sats Mission](https://www.phmpapers.org/index.php/phmconf/article/download/573/phmc_18_573) - Prognostics     
 
    keywords: anomaly detection, LSTM, Auto-Encoder, sensor   
 
@@ -95,5 +94,5 @@ PHM data challenge 2018에서 제공한 데이터를 사용한 것은 아니지�
 ##### Data Download Link     
 [https://drive.google.com/open?id=15Jx9Scq9FqpIGn8jbAQB_lcHSXvIoPzb](https://drive.google.com/open?id=15Jx9Scq9FqpIGn8jbAQB_lcHSXvIoPzb)    
 
-데이터 용량(압축상태) : 5.0G    
+Data Capacity(Compressed) : 5.0G    
 

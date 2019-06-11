@@ -1,23 +1,23 @@
 ## Semicon  
-### [SECOM](http://archive.ics.uci.edu/ml/datasets/secom): Semiconductor manufacturing process data.  
+### [SECOM](http://archive.ics.uci.edu/ml/datasets/secom): Semiconductor manufacturing process data.    
 
-반도체 제조 공정에서 590개의 sensors로부터 수집한 FAB 데이터이다. Data는 secom.data와 secom_labels.data 두 파일로 이루어져 있다. secom.data 파일은 590개의 features, 1567개의 examples를 가진 1567 * 590 matrix로 구성되어 있다.  secom_labels.data는 1567개의 각 data마다 classifications 값과 data time stamp 값을 포함하고 있다. secom_labels.data에서 -1은 pass(정상), 1은 fail(비정상)을 나타낸다.     
+FAB data collected from 590 sensors in the semiconductor manufacturing process. Data consists of two files, 'secom.data' and 'secom_labels.data'. The 'secom.data' file consists of 1567 * 590 matrices with 590 features and 1567 examples. 'secom_labels.data' file contains classifications value and data time stamp value for each 1567 data. In 'secom_labels.data' file, -1 indicates pass (normal) and 1 indicates fail (abnormal).       
 
 ![](https://img.shields.io/badge/sector-semicon-blue.svg)
 ![](https://img.shields.io/badge/labeled-yes-blue.svg)
 ![](https://img.shields.io/badge/time--series-yes-blue.svg)
 ![](https://img.shields.io/badge/feature_selection-gray.svg) ![](<https://img.shields.io/badge/simulation-no-red.svg>)         
 
-#### Data Set Information     
+#### Data Set Information      
 
 
-- 참고    
+- Note      
 
-data file 내에 training data와 test data가 구분되어 있지 않다.  
-590개의 각 __변수__ -> 590개 각각의 sensor를 의미 
-[UCI 홈페이지](http://archive.ics.uci.edu/ml/datasets/secom)에서는 feature의 개수를 591개라고 명시하였으나, 데이터를 직접 로드해 본 결과 secom.data을 dataframe으로 전환한 형태가 (1567, 590)의 shape을 가지고 있었다. 또한 "Big Data Technologies and Applications. Springer International Publishing. (2018)" 에서도 590개의 feature라고 명시하였다.  
+There is no distinction between training data and test data in the data file.   
+590 __variables__ -> 590 __sensors__      
+[On the UCI homepage](http://archive.ics.uci.edu/ml/datasets/secom), the number of features was specified as 591, but as a result of directly loading the data, the shape of 'secom.data' converted to dataframe had a shape of (1567, 590). Big Data Technologies and Applications (Springer International Publishing. (2018)) also identified 590 features.      
 
-- 데이터 요약    
+- Data Summary       
 
 Data Set Characteristics | Attribute Characteristics | Associated Tasks  
 ---- | ---- | ----  
@@ -27,7 +27,7 @@ Number of Instances | Number of Attributes | Number of Missing Values(NaN) in se
 ---- | ---- | ----  
 1567 | 590 | 41951(1567 by 590 matrix 중에서 NA 수)    
 
-- 클래스 개수   
+- \# of each class    
 
 Number of pass | Number of fail | total 
 ---- | ---- | ---- 
@@ -50,7 +50,7 @@ McCann, M. and Johnston, A. (2008). UCI Machine Learning Repository [<http://arc
 ##### Data Download Link   
 [http://archive.ics.uci.edu/ml/machine-learning-databases/secom/](http://archive.ics.uci.edu/ml/machine-learning-databases/secom/)    
 
-데이터 용량  
+Data Capacity     
 
 secom.data : 5.13MB    
 
