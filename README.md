@@ -102,14 +102,23 @@
 
 ### Power
 * [Appliance Energy](https://github.com/makinarocks/awesome-industrial-machine-datasets/tree/minkyu/data-explanation/Appliance%20Energy/README.md): Experimental data used to create regression models of appliances energy use in a low energy building.  
-![](https://img.shields.io/badge/sector-power-lightblue.svg)
-![](https://img.shields.io/badge/labeled-yes-blue.svg)
-![](https://img.shields.io/badge/time--series-yes-blue.svg)  
-![](https://img.shields.io/badge/house_environment-gray.svg)  
+  ![](https://img.shields.io/badge/sector-power-lightblue.svg)
+  ![](https://img.shields.io/badge/labeled-yes-blue.svg)
+  ![](https://img.shields.io/badge/time--series-yes-blue.svg)  
+  ![](https://img.shields.io/badge/house_environment-gray.svg)  
+
 * [Combined Cycle Power Plant](https://github.com/makinarocks/awesome-industrial-machine-datasets/tree/minkyu/data-explanation/Combined%20Cycle%20Power%20Plant/README.md): Combined Cycle Power Plant over 6 years.  
-![](https://img.shields.io/badge/sector-power-lightblue.svg)
-![](https://img.shields.io/badge/labeled-yes-blue.svg)
-![](https://img.shields.io/badge/time--series-no-red.svg)   
+  ![](https://img.shields.io/badge/sector-power-lightblue.svg)
+  ![](https://img.shields.io/badge/labeled-yes-blue.svg)
+  ![](https://img.shields.io/badge/time--series-no-red.svg)     
+
+* [BLUED dataset](<http://portoalegre.andrew.cmu.edu:88/BLUED/>) :  The dataset consists of voltage and current measurements for a single-family residence in the United States, sampled at 12 kHz for a whole week.      
+
+  ![](https://img.shields.io/badge/sector-power-lightblue.svg) ![](https://img.shields.io/badge/labeled-yes-blue.svg)![](https://img.shields.io/badge/time--series-yes-blue.svg)      
+
+* [REDD: A Public Data Set for Energy Disaggregation Research](<http://redd.csail.mit.edu/>):  A freely available data set containing detailed power usage information from several homes, which is aimed at furthering research on energy disaggregation (the task of determining the component appliance contributions from an aggregated electricity signal)        
+
+  ![](https://img.shields.io/badge/sector-power-lightblue.svg) ![](https://img.shields.io/badge/labeled-yes-blue.svg)![](https://img.shields.io/badge/time--series-yes-blue.svg)      
 
 ### Battery  
 
