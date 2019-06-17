@@ -8,13 +8,7 @@ aps_failure_training_set.csv : 44.7MB (60,000)
 
 The datasets' positive class consists of component failures for a specific component of the APS system. The negative class consists of trucks with failures for components not related to the APS.
 
- ![](https://img.shields.io/badge/sector-etc-black.svg)
-
- ![](https://img.shields.io/badge/labeled-yes-blue.svg)
-
- ![](https://img.shields.io/badge/time--series-no-red.svg)
-
- ![](https://img.shields.io/badge/failure%20classification-gray.svg)
+![](https://img.shields.io/badge/sector-etc-black.svg) ![](https://img.shields.io/badge/labeled-yes-blue.svg) ![](https://img.shields.io/badge/time--series-no-red.svg) ![](https://img.shields.io/badge/failure%20classification-gray.svg) ![](<https://img.shields.io/badge/simulation-no-red.svg>)
 
 #### Data Set Information:
 
@@ -26,15 +20,13 @@ The datasets' positive class consists of component failures for a specific compo
 | ------------------- | -------------------- | ---- | ---- |
 | 60000               | 171                  |      |      |
 
-#### Relevant Information: 
 **Introduction**
 The dataset consists of data collected from heavy Scania trucks in everyday usage.
 
-braking과 gear changes와 같이 트럭에서 다양한 기능을 하는 데 사용되는 pressurised air를 생성하는 Air Pressure System(APS)에 focus를 둔다
+The system in focus is the Air Pressure system (APS) which generates pressurised air that are utilized in various functions in a truck, such as braking and gear changes.
 
-- positive class는 APS system의 특정 component에 대한 component failures로 구성되어있음.
-
-- negative class는 APS와 관련없는 component에 결함이 있는 트럭으로 구성됨
+- The positive class consists of component failures for a specific component of the APS system.
+- The negative class consists of trucks with failures for components not related to the APS.
 
 The data consists of a subset of all available data, selected by experts. (in order to guarantee the quality of the predictive model)
 
@@ -58,12 +50,12 @@ In this case Cost_1 refers to the cost that an unnecessary check needs to be don
 
 Total_cost = Cost_1 * Num_Instances + Cost_2 * Num_Instances. 
 
-#### Number of Instances: 
-The training set contains 60000 examples in total in which 59000 belong to the negative class and 1000 positive class. The test set contains 16000 examples. 
+**Number of Instances:**
 
-#### Number of Attributes: 171 
+The training set contains 60000 examples in total in which 59000 belong to the negative class and 1000 positive class. The test set contains 16000 examples.
 
-#### Attribute Information: 
+**Attribute Information: **
+
 The attribute names of the data have been **anonymized** for proprietary reasons. It consists of both single numerical counters and histograms consisting of bins with different conditions. Typically the histograms have open-ended conditions at each end. For example if we measuring the ambient temperature 'T' then the histogram could be defined with 4 bins where: 
 
 bin 1 collect values for temperature T < -20 
@@ -95,8 +87,6 @@ Also, most failures could be predicted by using one or two features. It appeared
 – Scatter plots to see how the classes are spread.
 – Radar charts to recognize outliers.
 
-
-
 [Combining Boosted Trees with Metafeature Engineering for Predictive Maintenance](https://www.researchgate.net/publication/313067390_Combining_Boosted_Trees_with_Metafeature_Engineering_for_Predictive_Maintenance)
 
 The exploratory analysis of the data enabled to outlined two important conditions:
@@ -105,3 +95,6 @@ The exploratory analysis of the data enabled to outlined two important condition
 
 (2) high imbalance in the class distribution
 
+#### Citation Request:
+
+Please refer to the Machine Learning Repository's [citation policy](https://archive.ics.uci.edu/ml/citation_policy.html) 
