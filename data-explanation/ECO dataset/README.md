@@ -1,10 +1,10 @@
 # ECO dataset
 
-real-data
+[data](http://vs.inf.ethz.ch/res/show.html?what=eco-data)
+
+![](https://img.shields.io/badge/sector-power-skyblue.svg) ![](https://img.shields.io/badge/labeled-yes-blue.svg) ![](https://img.shields.io/badge/simulation-no-red.svg)
 
 The ECO (Electricity Consumption and Occupancy) data set is a comprehensive open-source (Creative Commons License CC BY 4.0) data set for non-intrusive load monitoring and occupancy detection research. It was collected in 6 Swiss households over a period of 8 months. For each of the households, the ECO data set provides:
-
-
 
 - 1 Hz aggregate consumption data. Each measurement contains data on current, voltage, and phase shift for each of the three phases in the household.
 - 1 Hz plug-level data measured from selected appliances.
@@ -16,14 +16,14 @@ For each of the six households we collected aggregate electricity consumption da
 
 #### Variables
 
-Household 1 : (1) Fridge, (2) dryer, (3) coffee machine, (4) kettle, (5) washing machine, (6) PC, (7) freezer.
-Household 2 : (1) Tablet, (2) dishwasher, (3) stove, (4) fridge, (5) TV, (6) stereo, (7) freezer, (8) kettle, (9) lamp, (10) laptops.
-Household 3 : (1) Tablet, (2) freezer, (3) coffee machine, (4) PC, (5) fridge, (6) kettle, (7) entertainment.
-Household 4 : (1) Fridge, (2) kitchen appliances3 , (3) lamp, (4) stereo & laptop, (5) freezer, (6) tablet, (7) entertainment, (8) microwave.
-Household 5 : (1) Tablet, (2) coffee machine, (3) kettle, (4) microwave, (5) fridge, (6) entertainment, (7) PC, router & printer, (8) fountain.
-Household 6 : (1) Lamp, (2) laptop & printer, (3) routers, (4) coffee machine, (5) en
+Household 1 : (1) Fridge, (2) dryer, (3) coffee machine, (4) kettle, (5) washing machine, (6) PC, (7) freezer.   
+Household 2 : (1) Tablet, (2) dishwasher, (3) stove, (4) fridge, (5) TV, (6) stereo, (7) freezer, (8) kettle, (9) lamp, (10) laptops.  
+Household 3 : (1) Tablet, (2) freezer, (3) coffee machine, (4) PC, (5) fridge, (6) kettle, (7) entertainment.  
+Household 4 : (1) Fridge, (2) kitchen appliances3 , (3) lamp, (4) stereo & laptop, (5) freezer, (6) tablet, (7) entertainment, (8) microwave.  
+Household 5 : (1) Tablet, (2) coffee machine, (3) kettle, (4) microwave, (5) fridge, (6) entertainment, (7) PC, router & printer, (8) fountain.  
+Household 6 : (1) Lamp, (2) laptop & printer, (3) routers, (4) coffee machine, (5) en     
 
-
+#### Paper
 
 [The ECO Data Set and the Performance of Non-Intrusive Load Monitoring Algorithms](https://www.vs.inf.ethz.ch/publ/papers/beckel-2014-nilm.pdf)
 

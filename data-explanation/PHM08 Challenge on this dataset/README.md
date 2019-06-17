@@ -8,9 +8,10 @@ The engine is operating normally at the start of each time series, and starts to
 The objective of the competition is to predict the number of remaining operational cycles before in the test set, i.e., the number of operational cycles after the last cycle that the engine will continue to operate properly.  
 The data are provided as a zip-compressed text file with 26 columns of numbers, separated by spaces. Each row is a snapshot of data taken during a single operational cycle; each column is a different variable.  
 
-
 ![](https://img.shields.io/badge/competition-gray.svg)
-![](https://img.shields.io/badge/scoring_and_ranking-gray.svg)   
+![](https://img.shields.io/badge/scoring_and_ranking-gray.svg) ![](<https://img.shields.io/badge/simulation-yes-blue.svg>)      
+
+#### Data Set Information   
 
 - Attribute Explanation   
 
@@ -37,16 +38,16 @@ The columns correspond to:
   (Once algorithms are trained to satisfaction, users can apply them to the final test dataset contained in the file named final_test.txt. )  
   final score은 RUL errors의 weighted sum 이다.    
 
-### 관련 연구  
+#### Paper   
 
 1. [Long Short-Term Memory Network for Remaining
-   Useful Life Estimation](<http://www.hitachi-america.us/rd/about_us/bdl/docs/LSTM_RUL.PDF>)   
+   Useful Life Estimation](<http://www.hitachi-america.us/rd/about_us/bdl/docs/LSTM_RUL.PDF>)    
 
-   keywords: LSTM, Multi-Layer Perceptron (MLP), Support Vector Regression (SVR), Relevance Vector Regression (RVR) and Convolutional Neural Network (CNN)  
+   keywords: LSTM, Multi-Layer Perceptron (MLP), Support Vector Regression (SVR), Relevance Vector Regression (RVR) and Convolutional Neural Network (CNN)    
 
 
-##### Data Folder Link  
-[https://ti.arc.nasa.gov/c/13/](https://ti.arc.nasa.gov/c/13/)   
+##### Data Folder Link   
+[https://ti.arc.nasa.gov/c/13/](https://ti.arc.nasa.gov/c/13/)    
 
 데이터 용량(압축상태):  
 

@@ -6,19 +6,21 @@ PHM Data Challenge 18에서 제공한 데이터는 웨이퍼 제조 공정 내�
 
 ![](https://img.shields.io/badge/sector-semicon-blue.svg)
 ![](https://img.shields.io/badge/labeled-yes-blue.svg)
-![](https://img.shields.io/badge/time--series-yes-blue.svg)  
+![](https://img.shields.io/badge/time--series-yes-blue.svg) ![](<https://img.shields.io/badge/simulation-no-red.svg>)        
 
+#### Data Set Information    
 
-#### Training data
+__Training data__   
+
 Training data는 총 60개의 csv파일로 구성되어 있으며, training data인 train 파일 20개, 이상 시점에서만의 이상 정보를 담은 train_fault 파일 20개, ttf 정보를 표시한 train_ttf 파일 20개로 이루어져 있다.  
 
-- 요약  
+- 데이터 요약   
 
 이상 데이터 개수| 정상 데이터 개수 | 총 데이터 개수  
 ---- | ---- | ----  
 1,236 | 82,188,204 | 82,189,440   
 
-- Train 파일 20개는 총 82,189,440개의 row로 이루어져 있으며, 24개의 column으로 구성된다. 24개의 column 정보는 아래와 같다. 
+- Train 파일 20개는 총 82,189,440개의 row로 이루어져 있으며, 24개의 column으로 구성된다. 24개의 column 정보는 아래와 같다.   
 
 ID#| Parameter Name | Type | Description
 ---- | ---- | ---- | ----
@@ -65,17 +67,18 @@ TTF_FlowCool Pressure Dropped Below Limit | Numeric
 TTF_Flowcool Pressure Too High Check Flowcool Pump | Numeric 
 TTF_Flowcool leak | Numeric  
 
-#### Test data
+__Test data__    
+
 - Test data는 5개의 csv파일로 이루어져 있다. 총 7,198,948개의 row로 이루어져 있으며, 24개의 column으로 구성된다.   
 
-####  data challenge의 task(목적)    
+####  Data challenge의 task(목적)     
 
 이 PHM data challenge 의 목적은 다음 두 가지와 같다.  
 
 1. Diagnose failure(i.e detect and identify)  
 2. Determine time remaining until next failure (i.e predict remaining useful life)  
 
-#### 관련 연구
+#### Paper   
 
 PHM data challenge 2018에서 제공한 데이터를 사용한 것은 아니지만, [2018 PHM Society Conference brochure (2018-09-22).pdf](<https://www.phmsociety.org/sites/phmsociety.org/files/2018%20PHM%20Society%20Conference%20brochure%20(2018-09-22).pdf>) 의 paper session에 등록되어 있는 몇가지 논문을 첨부하였다.  
 
@@ -85,12 +88,12 @@ PHM data challenge 2018에서 제공한 데이터를 사용한 것은 아니지�
    keywords: anomaly detection, LSTM, Auto-Encoder, sensor   
 
 2. [Automated Hyper-parameter Tuning for Machine Learning Models
-   in Machine Health Prognostics](https://www.phmpapers.org/index.php/phmconf/article/download/490/phmc_18_490) - : Diagnostics  
+   in Machine Health Prognostics](https://www.phmpapers.org/index.php/phmconf/article/download/490/phmc_18_490) - Diagnostics    
 
-   keywords: data from PHM 2016 Data Challenge, Bayesian optimization algorithms, hyper-parameter optimization problem  
+   keywords: data from PHM 2016 Data Challenge, Bayesian optimization algorithms, hyper-parameter optimization problem    
 
-##### 데이터 다운로드 링크  
-[https://drive.google.com/open?id=15Jx9Scq9FqpIGn8jbAQB_lcHSXvIoPzb](https://drive.google.com/open?id=15Jx9Scq9FqpIGn8jbAQB_lcHSXvIoPzb)
+##### Data Download Link     
+[https://drive.google.com/open?id=15Jx9Scq9FqpIGn8jbAQB_lcHSXvIoPzb](https://drive.google.com/open?id=15Jx9Scq9FqpIGn8jbAQB_lcHSXvIoPzb)    
 
-데이터 용량(압축상태) : 5.0G   
+데이터 용량(압축상태) : 5.0G    
 

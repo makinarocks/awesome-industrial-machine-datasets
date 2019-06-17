@@ -3,15 +3,17 @@
 
 CNC Mill Tool Wear 데이터는 'Tool wear detection', 'Detection of inadequate clamping' 등의 classification studies를 수행하기 위해 제공되었다.    
 
+A series of machining experiments were run on 2" x 2" x 1.5" wax blocks in a CNC milling machine in the System-level Manufacturing and Automation Research Testbed (SMART) at the University of Michigan. Machining data was collected from a CNC machine for variations of tool condition, feed rate, and clamping pressure. Each experiment produced a finished wax part with an "S" shape - S for smart manufacturing - carved into the top face, as shown in `test_artifact.jpg` (included in the dataset).  
+
 18개의 experiment_xx.csv 파일과 train.csv 파일이 제공되었다.  각 experiment_xx.csv 파일은 48개의 columns로 구성되며, 각 row의 수는 experiment_01.csv부터 experiment_18.csv까지 (1056, 1669, 1522, 533, 463, 1297, 566, 606, 741, 1302, 2315, 2276, 2234, 2333, 1382, 603, 2151, 2254) 이다. 18 different experiments에 대한 general data는 train.csv에 제공되어 있다. 18 experiments로부터 수집된 time series data는 100ms 의 sampling rate로 수집되었다.    
 
 ![](https://img.shields.io/badge/sector-mechanical-purple.svg)
 ![](https://img.shields.io/badge/labeled-meta--only-yellow.svg)
 ![](https://img.shields.io/badge/time--series-yes-blue.svg)  
 ![](https://img.shields.io/badge/tool_wear_detection-gray.svg)
-![](https://img.shields.io/badge/detection_of_inadequate_clamping-gray.svg)  
+![](https://img.shields.io/badge/detection_of_inadequate_clamping-gray.svg) ![](<https://img.shields.io/badge/simulation-yes-blue.svg>)      
 
-
+#### Data Set Information  
 
 - Data Set 
 
@@ -28,8 +30,6 @@ experiment_07.csv | 566 | experiment_16.csv | 603
 experiment_08.csv | 606 | experiment_17.csv | 2151 
 experiment_09.csv | 741 | experiment_18.csv | 2254 
  |  | Train.csv | 18 
-
-
 
 
 
@@ -106,18 +106,13 @@ tool_condition 변수에 tool이 unworn인지 worn인지에 대한 여부가 나
 
   (2) Taking each one of the 18 experiments (the entire time series) as an observation for time series classification     
 
-  
-
-
-### 관련 연구   
+#### Paper  
 
 1. [CNC Machine Tool’s wear diagnostic and prognostic by
-   using dynamic bayesian networks](<https://hal.archives-ouvertes.fr/hal-00672204/document>)    
+   using dynamic bayesian networks](<https://hal.archives-ouvertes.fr/hal-00672204/document>)      
 
-   keywords: dynamic bayesian networks, Diagnostic, Prognostic, Remaining Useful Life, Condition
-   Based Maintenance, Hidden Markov Models, Monitoring data, Tool wear     
-
-   
+keywords: dynamic bayesian networks, Diagnostic, Prognostic, Remaining Useful Life, Condition
+Based Maintenance, Hidden Markov Models, Monitoring data, Tool wear     
 
 
 ##### Data Download Link   

@@ -6,7 +6,7 @@
 
 This dataset records the power demand from five houses. In each house we record both the whole-house mains power demand every six seconds as well as power demand from individual appliances every six seconds. In three of the five houses (houses 1, 2 and 5) we also record the whole-house voltage and current at 16 kHz.
 
-![](https://img.shields.io/badge/sector-power-skyblue.svg) ![](https://img.shields.io/badge/labeled-yes-blue.svg)  ![](https://img.shields.io/badge/time--series-yes-blue.svg) ![](https://img.shields.io/badge/real-blue.svg)
+![](https://img.shields.io/badge/sector-power-skyblue.svg) ![](https://img.shields.io/badge/labeled-yes-blue.svg)  ![](https://img.shields.io/badge/time--series-yes-blue.svg) ![](https://img.shields.io/badge/simulation-no-red.svg)
 
 #### Data Set Information:
 

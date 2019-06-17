@@ -6,7 +6,7 @@
 
 GREEND is an energy dataset containing power measurements collected from multiple households in Austria and Italy. It provides detailed energy profiles on a per device basis with a sampling rate of 1 Hz.
 
-![](https://img.shields.io/badge/sector-power-skyblue.svg) ![](https://img.shields.io/badge/labeled-implicit-green.svg) 
+![](https://img.shields.io/badge/sector-power-skyblue.svg) ![](https://img.shields.io/badge/labeled-implicit-green.svg) ![](https://img.shields.io/badge/simulation-no-red.svg) 
 
 #### Data Set Information:
 

@@ -9,12 +9,16 @@ engine performance에 영향을 주는 three operational settings가 있다.
 각 test data에 대해서, RUL(Remaining Useful Life) values 값이 제공된다.  
 training set에서는, 엔진을 가동하는 것이 좋지 않다고 판단되는 predefined threshold에 도달할 때까지 degradation이 커진다. test set에서는
 완전히 degradation이 되기 전에 시계열 데이터가 종료된다.  
-각 data set마다 26개 sensors를 의미하는 columns가 있다.  
+각 data set마다 26개 sensors를 의미하는 columns가 있다.   
+
+response surfaces of all sensors are generated via a thermo-dynamical simulation model for the engine as a function of variations of flow and efficiency of the modules of interest.  
 
 ![](https://img.shields.io/badge/sector-mechanical-purple.svg)
 ![](https://img.shields.io/badge/labeled-implicit-green.svg)
 ![](https://img.shields.io/badge/time--series-yes-blue.svg)  
-![](https://img.shields.io/badge/time--to--failure-gray.svg)   
+![](https://img.shields.io/badge/time--to--failure-gray.svg) ![](<https://img.shields.io/badge/simulation-yes-blue.svg>)     
+
+#### Data Set Information  
 
 - 데이터 부연 설명  
 
@@ -68,7 +72,7 @@ The columns correspond to:
   RUL dataset에서 각 element값이 각 test set에서 어떤 timestep에서의 RUL 값을 의미하는건지 -> 각 test set의 unit number의 max 수만큼 RUL값이 있다.  
   RUL_FD001에서, 첫번째 row에 있는 값의 의미 = test_FD001에서 unit number = 1 에 해당하는 operation의 RUL 값 -> 시점 기준이 last cycle 인지 first cycle인지 모르겠다.  
 
-### 관련 연구  
+#### Paper    
 
 1. [Long Short-Term Memory Network for Remaining
    Useful Life Estimation](<http://www.hitachi-america.us/rd/about_us/bdl/docs/LSTM_RUL.PDF>)   
@@ -80,7 +84,9 @@ The columns correspond to:
 
    keywords: LSTM, CNN, MLP    
 
+#### Citations  
 
+A. Saxena and K. Goebel (2008). "Turbofan Engine Degradation Simulation Data Set", NASA Ames Prognostics Data Repository (http://ti.arc.nasa.gov/project/prognostic-data-repository), NASA Ames Research Center, Moffett Field, CA    
 
 ##### Data Download Link  
 [https://ti.arc.nasa.gov/c/6/](https://ti.arc.nasa.gov/c/6/)   
