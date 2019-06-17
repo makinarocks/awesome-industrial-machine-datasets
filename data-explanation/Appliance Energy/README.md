@@ -6,16 +6,9 @@
 
 Experimental data used to create regression models of appliance energy use in a low energy building
 
- ![](https://img.shields.io/badge/sector-power-skyblue.svg)
-
- ![](https://img.shields.io/badge/label-yes-blue.svg)
-
- ![](https://img.shields.io/badge/time--series-yes-blue.svg)
-
- ![](https://img.shields.io/badge/house environment-gray.svg)
+ ![](https://img.shields.io/badge/sector-power-skyblue.svg)   ![](https://img.shields.io/badge/house_environment-gray.svg)  ![](https://img.shields.io/badge/label-yes-blue.svg) ![](https://img.shields.io/badge/time--series-yes-blue.svg)  ![](<https://img.shields.io/badge/experimental+real-green.svg>)
 
 #### Data Set Information
-
 | Data Set Characteristics  | Attribute Characteristics | Associated Tasks |
 | ------------------------- | ------------------------- | ---------------- |
 | Multivariate, Time-Series | Real                      | Regression       |
@@ -24,12 +17,12 @@ Experimental data used to create regression models of appliance energy use in a 
 | ------------------- | -------------------- | ---- | ---- |
 | 19735               | 29                   |      |      |
 
-The data set is at 10 min for about 4.5 months. The house temperature and humidity conditions were monitored with a ZigBee wireless sensor network. Each wireless node transmitted the temperature and humidity conditions around 3.3 min. Then, the wireless data was averaged for 10 minutes periods. **The energy data was logged every 10 minutes with m-bus energy meters.** Weather from the nearest airport weather station (Chievres Airport, Belgium) was downloaded from a public data set from Reliable Prognosis (rp5.ru), and merged together with the experimental data sets using the date and time column. 
+The data set is at 10 min for about 4.5 months. The house temperature and humidity conditions were monitored with a ZigBee wireless sensor network. Each wireless node transmitted the temperature and humidity conditions around 3.3 min. Then, the wireless data was averaged for 10 minutes periods. The energy data was logged every 10 minutes with m-bus energy meters. Weather from the nearest airport weather station (Chievres Airport, Belgium) was downloaded from a public data set from Reliable Prognosis (rp5.ru), and merged together with the experimental data sets using the date and time column. Two random variables have been included in the data set for testing the regression models and to filter out non predictive attributes (parameters).
 
 #### Variables
 
-date : time year-month-day hour:minute:second(10분 단위로 기록)  
-Appliances : energy use in Wh(종속변수)  
+date : time year-month-day hour:minute:second  
+Appliances : energy use in Wh(target)  
 lights : energy use of light fixtures in the house in Wh  
 T1 : Temperature in kitchen area, in Celsius  
 RH_1 : Humidity in kitchen area, in %  
@@ -76,8 +69,12 @@ rv2 : Random variable 2, nondimensional
 
 **Abstract**
 
-이 논문은 appliances의 에너지 사용에 대해 data-driven 예측 모델을 제시하고 이에 대해 설명함. 사용된 데이터에는 무선 네트워크로부터 온도, 습도 센서 측정, 인근 공항 역의 날씨 및 조명 기구의 에너지 사용 기록이 포함된다. 
+This paper presents and describes a data-driven prediction model for energy use of appliances. The used data includes temperature, humidity sensor measurements from the wireless network, weather at nearby airport stations, and energy usage records from lighting fixtures.
 
 The paper discusses data filtering to remove non-predictive parameters and feature ranking. Four statistical models were trained with repeated cross validation and evaluated in a testing set: (a) multiple linear regression, (b) support vector machine with radial kernel, (c) random forest and (d) gradient boosting machines (GBM). 
 
-The best model (GBM) was able to explain 97% of the variance (*R*2) in the training set and with 57% in the testing set when using all the predictors. **From the wireless network, the data from the kitchen, laundry and living room were ranked the highest in importance for the energy prediction.** The prediction models with only the weather data, selected the atmospheric pressure (which is correlated to wind speed) as the most relevant weather data variable in the prediction. **Therefore, atmospheric pressure may be important to include in energy prediction models and for building performance modeling.**
+The best model (GBM) was able to explain 97% of the variance (*R*2) in the training set and with 57% in the testing set when using all the predictors. From the wireless network, the data from the kitchen, laundry and living room were ranked the highest in importance for the energy prediction. The prediction models with only the weather data, selected the atmospheric pressure (which is correlated to wind speed) as the most relevant weather data variable in the prediction. Therefore, atmospheric pressure may be important to include in energy prediction models and for building performance modeling.
+
+#### Citation Request:
+
+Luis M. Candanedo, Veronique Feldheim, Dominique Deramaix, Data driven prediction models of energy use of appliances in a low-energy house, Energy and Buildings, Volume 140, 1 April 2017, Pages 81-97, ISSN 0378-7788, [[Web Link\]](http://dx.doi.org/10.1016/j.enbuild.2017.01.083).
