@@ -2,7 +2,7 @@
 
 [data](https://archive.ics.uci.edu/ml/datasets/Combined+Cycle+Power+Plant)
 
-3.5MB(압축)
+3.5MB(compressed)
 
 Combined Cycle Power Plant over 6 years.
 
@@ -30,7 +30,7 @@ Features consist of hourly average ambient variables
 - Relative Humidity (RH) in the range 25.56% to 100.16% (input)
 - Exhaust Vacuum (V) in teh range 25.36-81.56 cm Hg (input)
 - Net hourly electrical energy output (EP) 420.26-495.76 MW
-  The averages are taken from various sensors located around the plant that record the ambient variables every second. The variables are given without normalization. (output) - (데이터에서 PE)
+  The averages are taken from various sensors located around the plant that record the ambient variables every second. The variables are given without normalization. (output) 
 
 #### Paper
 
@@ -41,7 +41,7 @@ Regression ANN Model](https://www.researchgate.net/profile/Ahmed_Hassan214/publi
 
 Recently, regression artificial neural networks are used to model various systems that have high dimensionality with nonlinear relations. The system under study must have enough dataset available to train the neural network. 
 
-**The aim of this work is to apply and experiment various options effects on feed-foreword artificial neural network (ANN) which used to obtain regression model that predicts electrical output power (EP) of combined cycle power plant based on 4 inputs.** 
+The aim of this work is to apply and experiment various options effects on feed-foreword artificial neural network (ANN) which used to obtain regression model that predicts electrical output power (EP) of combined cycle power plant based on 4 inputs.
 
 Dataset is obtained from an open online source. The work shows and explains the stochastic behavior of the regression neural, experiments the effect of number of neurons of the hidden layers. It shows also higher performance for larger training dataset size; at the other hand, it shows different effect of larger number of variables as input. In addition, two different training functions are applied and compared. Lastly, simple statistical study on the error between real values and estimated values using ANN is conducted, which shows the reliability of the model. This paper provides a quick reference to the effects of main parameters of regression neural networks. 
 
@@ -57,7 +57,7 @@ Dataset is obtained from an open online source. The work shows and explains the 
 
 **Abstract**
 
-Predicting full load electrical power output of a base load power plant is important in order to maximize the profit from the available megawatt hours. **This paper examines and compares some machine learning regression methods to develop a predictive model, which can predict hourly full load electrical power output of a combined cycle power plant.** The base load operation of a power plant is influenced by four main parameters, which are used as input variables in the dataset, such as ambient temperature, atmospheric pressure, relative humidity, and exhaust steam pressure. **These parameters affect electrical power output, which is considered as the target variable.** The dataset, which consists of these input and target variables, was collected over a six-year period. First, based on these variables the best subset of the dataset is explored among all feature subsets in the experiments. Then, the most successful machine learning regression method is sought for predicting full load electrical power output. Thus, the best performance of the best subset, which contains a complete set of input variables, has been observed using the most successful method, which is Bagging algorithm with REPTree, with a mean absolute error of 2.818 and a Root Mean-Squared Error of 3.787.
+Predicting full load electrical power output of a base load power plant is important in order to maximize the profit from the available megawatt hours. This paper examines and compares some machine learning regression methods to develop a predictive model, which can predict hourly full load electrical power output of a combined cycle power plant. The base load operation of a power plant is influenced by four main parameters, which are used as input variables in the dataset, such as ambient temperature, atmospheric pressure, relative humidity, and exhaust steam pressure. These parameters affect electrical power output, which is considered as the target variable. The dataset, which consists of these input and target variables, was collected over a six-year period. First, based on these variables the best subset of the dataset is explored among all feature subsets in the experiments. Then, the most successful machine learning regression method is sought for predicting full load electrical power output. Thus, the best performance of the best subset, which contains a complete set of input variables, has been observed using the most successful method, which is Bagging algorithm with REPTree, with a mean absolute error of 2.818 and a Root Mean-Squared Error of 3.787.
 
 #### Citation Request:
 

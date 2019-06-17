@@ -23,11 +23,10 @@ The datasets' positive class consists of component failures for a specific compo
 **Introduction**
 The dataset consists of data collected from heavy Scania trucks in everyday usage.
 
-braking과 gear changes와 같이 트럭에서 다양한 기능을 하는 데 사용되는 pressurised air를 생성하는 Air Pressure System(APS)에 focus를 둔다
+The system in focus is the Air Pressure system (APS) which generates pressurised air that are utilized in various functions in a truck, such as braking and gear changes.
 
-- positive class는 APS system의 특정 component에 대한 component failures로 구성되어있음.
-
-- negative class는 APS와 관련없는 component에 결함이 있는 트럭으로 구성됨
+- The positive class consists of component failures for a specific component of the APS system.
+- The negative class consists of trucks with failures for components not related to the APS.
 
 The data consists of a subset of all available data, selected by experts. (in order to guarantee the quality of the predictive model)
 
@@ -87,8 +86,6 @@ Also, most failures could be predicted by using one or two features. It appeared
 – Box plots to get an overview of the variance of the values.
 – Scatter plots to see how the classes are spread.
 – Radar charts to recognize outliers.
-
-
 
 [Combining Boosted Trees with Metafeature Engineering for Predictive Maintenance](https://www.researchgate.net/publication/313067390_Combining_Boosted_Trees_with_Metafeature_Engineering_for_Predictive_Maintenance)
 

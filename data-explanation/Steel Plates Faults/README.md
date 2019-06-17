@@ -20,11 +20,11 @@ Faults27x7 var : 497Byte
 
 A dataset of steel plates’ faults, classified into 7 different types. The goal was to train machine learning for automatic pattern recognition.
 
-dataset은 각 fault(location, size,...)를 설명하는 27개의 feature들과, fault의 type(one of 7: Pastry, Z_Scratch, K_Scatch, Stains, Dirtiness, Bumps, Other_Faults)을 나타내는 7개의 binary features들로 구성되어 있음. fault의 type 부분은 binary classification target('common' or 'other' fault)으로도 사용됨.
+Dataset has 7 binary features that describe the 27 features describing fault(location, size,...) and type of fault(one of 7: Pastry, Z_Scratch, K_Scatch, Stains, Dirtiness, Bumps, Other_Faults). The type part of t he fault is also used as a binary classification target('common' or 'other' fault).
 
-**The last 7 columns are one hot encoded classes**, i.e. if the plate fault is classified as "Stains" there will be a 1 in that column and 0's in the other columns. If you are unfamiliar with one hot encoding, **just know that the last seven columns are your class labels.**
+The last 7 columns are one hot encoded classes, i.e. if the plate fault is classified as "Stains" there will be a 1 in that column and 0's in the other columns. If you are unfamiliar with one hot encoding, just know that the last seven columns are your class labels.
 
-모든 dataset record는 stainless steel leaf의 superficial fault를 나타냄. fault는 6가지 유형이 있는데, The fault description은 fault의 기하학적 모양과 그 윤곽을 나타내는 27개의 indicators로 구성됨
+All dataset records indicate a superficial fault of stainless steel leaf. There are six types of faults: The fault description consists of 27 indicators that indicate the geometry of the fault and its outline.
 
 #### Variables
 
@@ -76,7 +76,7 @@ Other_Faults
 
 **Classification of Six Types of Surface Defects in Stainless Steel Plates**
 
-목표는가능한 6가지 유형의 결함으로 stainless steel plates에서 surface defects의 유형을 정확하게 classify하는 것.
+The goal is to accurately classify the types of surface defects in stainless steel plates with six possible types of defects
 
 #### Citation Request:
 

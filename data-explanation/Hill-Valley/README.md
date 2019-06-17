@@ -23,7 +23,7 @@ Two simulated data sets, with and without noise. Each record represents 100 poin
 | ------------------- | -------------------- | ----------------- | ---- |
 | 1212                | 101                  | 2                 |      |
 
-feature : V1~V100, Class (총 101개)
+feature : V1~V100, Class
 
 - 100 predictive attributes, 1 goal attribute
 
@@ -32,7 +32,7 @@ feature : V1~V100, Class (총 101개)
 
 number of instance
 
-- training, test 각각 606개씩 해서 1212
+- training 606, test 606
 
 Each record represents 100 points on a two-dimensional graph. When plotted in order (from 1 through 100) as the Y co-ordinate, the points will create either a Hill (a “bump” in the terrain) or a Valley (a “dip” in the terrain). 
 
@@ -54,7 +54,7 @@ These next two datasets (with noise) are a training/testing set pair where the t
 
 The sample ARFF file is useful for setting up experiments, but is not necessary.
 
-1~100은 numeric, class는 {0,1}이라는것만 써있음 
+1~100 is numeric, class is {0,1}
 
 (f) Hill_Valley_visual_examples.jpg 
 
@@ -68,12 +68,15 @@ This graphic file shows two example instances from the data.
 1-100: Labeled “X##”. Floating point values (numeric) 
 101: Labeled “class”. Binary {0, 1} representing {valley, hill} 
 
-[참고자료](https://www.openml.org/d/1566)
-
 task : supervised classification on hill-valley
 
 #### Citation Request:
 
 Please refer to the Machine Learning Repository's [citation policy](https://archive.ics.uci.edu/ml/citation_policy.html)
 
+>>>**reference**
 >>>
+>>>https://www.simonwenkel.com/2018/08/19/revisiting_ml_hill_valley_detection.html
+>>>
+>>>https://www.openml.org/d/1566
+
