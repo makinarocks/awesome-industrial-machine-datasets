@@ -25,7 +25,11 @@
 ### Power  
 
 * [Appliance Energy](https://github.com/makinarocks/awesome-industrial-machine-datasets/tree/minkyu/data-explanation/Appliance%20Energy/README.md): Experimental data used to create regression models of appliances energy use in a low energy building.  
-* [Combined Cycle Power Plant](https://github.com/makinarocks/awesome-industrial-machine-datasets/tree/minkyu/data-explanation/Combined%20Cycle%20Power%20Plant/README.md): Combined Cycle Power Plant over 6 years.  
+* [Combined Cycle Power Plant](https://github.com/makinarocks/awesome-industrial-machine-datasets/tree/minkyu/data-explanation/Combined%20Cycle%20Power%20Plant/README.md): Combined Cycle Power Plant over 6 years.   
+* [Eco(Electricity Consumption & Occupancy)](https://github.com/makinarocks/awesome-industrial-machine-datasets/tree/master/data-explanation/ECO dataset) : The ECO data set is a comprehensive data set for non-intrusive load monitoring and occupancy detection research. It was collected in 6 Swiss households over a period of 8 months. For each of the households, the ECO data set provides  
+* [UK ERC dataset](https://github.com/makinarocks/awesome-industrial-machine-datasets/tree/master/data-explanation/UK ERC dataset): This dataset records the power demand from five houses. In each house we record both the whole-house mains power demand every six seconds as well as power demand from individual appliances every six seconds. In three of the five houses (houses 1, 2 and 5) we also record the whole-house voltage and current at 16 kHz.  
+* [BLUE dataset](https://github.com/makinarocks/awesome-industrial-machine-datasets/tree/master/data-explanation/BLUE dataset): The dataset consists of voltage and current measurements for a single-family residence in the United States, sampled at 12 kHz for a whole week.   
+* [REDD: A Public Data Set for Energy Disaggregation Research](<https://github.com/makinarocks/awesome-industrial-machine-datasets/tree/master/data-explanation/REDD>): A freely available data set containing detailed power usage information from several homes, which is aimed at furthering research on energy disaggregation (the task of determining the component appliance contributions from an aggregated electricity signal)      
 
 ### Etc  
 
@@ -33,7 +37,7 @@
 * [Hill-Valley](https://github.com/makinarocks/awesome-industrial-machine-datasets/tree/minkyu/data-explanation/Hill-Valley/README.md): This is NOT a manufacturing dataset, but looks good for testing pattern detection methods.  
 * [Machine Failures](https://github.com/makinarocks/awesome-industrial-machine-datasets/tree/minkyu/data-explanation/Machine%20failure/README.md)  
 * [APS System Failures](https://github.com/makinarocks/awesome-industrial-machine-datasets/tree/minkyu/data-explanation/APS%20System%20Failures/README.md):  The datasets' positive class consists of component failures for a specific component of the APS system. The negative class consists of trucks with failures for components not related to the APS.   
-* [IDA2016 Challenge: Challenge on this dataset](https://archive.ics.uci.edu/ml/datasets/IDA2016Challenge)    
+* [IDA2016 Challenge: Challenge on this dataset](https://archive.ics.uci.edu/ml/datasets/IDA2016Challenge)      
 
 
 
