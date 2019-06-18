@@ -168,6 +168,6 @@
   ![](https://img.shields.io/badge/labeled-yes-blue.svg)
   ![](https://img.shields.io/badge/time--series-no-red.svg)  
   ![](https://img.shields.io/badge/failure_classification-gray.svg)   
-  [IDA2016 Challenge: Chanllenge on this dataset](<https://github.com/makinarocks/awesome-industrial-machine-datasets/tree/master/data-explanation>)  
+  [IDA2016 Challenge: Chanllenge on this dataset](<https://archive.ics.uci.edu/ml/datasets/IDA2016Challenge>)  
   ![](https://img.shields.io/badge/competition-gray.svg)
   ![](https://img.shields.io/badge/scoring_and_ranking-gray.svg)
