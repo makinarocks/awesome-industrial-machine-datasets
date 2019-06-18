@@ -55,7 +55,7 @@
   ![](https://img.shields.io/badge/sector-chemical-red.svg)
   ![](https://img.shields.io/badge/labeled-yes-blue.svg)
   ![](https://img.shields.io/badge/time--series-yes-blue.svg)![](<https://img.shields.io/badge/simulation-yes-blue.svg>)   
-- [Chemical Detection Platform](https://github.com/makinarocks/awesome-industrial-machine-datasets/tree/master/data-explanation/Chemical Detection Platform): The dataset contains 18000 time-series recordings from a chemical detection platform at six different locations in a wind tunnel facility in response to ten high-priority chemical gaseous substances.   
+- [Chemical Detection Platform](<https://github.com/makinarocks/awesome-industrial-machine-datasets/tree/master/data-explanation/Chemical Detection Platform>): The dataset contains 18000 time-series recordings from a chemical detection platform at six different locations in a wind tunnel facility in response to ten high-priority chemical gaseous substances.   
   ![](https://img.shields.io/badge/sector-chemical-red.svg)
   ![](https://img.shields.io/badge/labeled-yes-blue.svg)
   ![](https://img.shields.io/badge/time--series-yes-blue.svg)![](<https://img.shields.io/badge/simulation-yes-blue.svg>)   
@@ -117,7 +117,7 @@
   ![](https://img.shields.io/badge/sector-power-lightblue.svg)
   ![](https://img.shields.io/badge/labeled-implicit-green.svg)
 
-- [Eco(Electricity Consumption & Occupancy)](https://github.com/makinarocks/awesome-industrial-machine-datasets/tree/master/data-explanation/ECO dataset) : The ECO data set is a comprehensive data set for non-intrusive load monitoring and occupancy detection research.      
+- [Eco(Electricity Consumption & Occupancy)](<https://github.com/makinarocks/awesome-industrial-machine-datasets/tree/master/data-explanation/ECO dataset>) : The ECO data set is a comprehensive data set for non-intrusive load monitoring and occupancy detection research.      
 
   ![](https://img.shields.io/badge/sector-power-lightblue.svg)
   ![](https://img.shields.io/badge/labeled-yes-blue.svg)
@@ -129,7 +129,7 @@
   ![](https://img.shields.io/badge/labeled-yes-blue.svg)
   ![](https://img.shields.io/badge/time--series-yes-blue.svg)      
 
-- [BLUED dataset](<http://portoalegre.andrew.cmu.edu:88/BLUED/>) :  The dataset consists of voltage and current measurements for a single-family residence in the United States, sampled at 12 kHz for a whole week.      
+- [BLUED dataset](<https://github.com/makinarocks/awesome-industrial-machine-datasets/tree/master/data-explanation/BLUE dataset>) :  The dataset consists of voltage and current measurements for a single-family residence in the United States, sampled at 12 kHz for a whole week.      
 
   ![](https://img.shields.io/badge/sector-power-lightblue.svg)  ![](https://img.shields.io/badge/labeled-yes-blue.svg)![](https://img.shields.io/badge/time--series-yes-blue.svg)       
 
