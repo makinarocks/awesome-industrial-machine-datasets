@@ -112,18 +112,18 @@
   ![](https://img.shields.io/badge/labeled-yes-blue.svg)
   ![](https://img.shields.io/badge/time--series-no-red.svg)     
 
-- [GREEND](https://sourceforge.net/projects/greend/) : GREEND is an energy dataset containing power measurements collected from multiple households in Austria and Italy. It provides detailed energy profiles on a per device basis with a sampling rate of 1 Hz.
+- [GREEND](https://github.com/makinarocks/awesome-industrial-machine-datasets/blob/minkyu/data-explanation/GREEND/README.md) : GREEND is an energy dataset containing power measurements collected from multiple households in Austria and Italy. It provides detailed energy profiles on a per device basis with a sampling rate of 1 Hz.
 
   ![](https://img.shields.io/badge/sector-power-lightblue.svg)
   ![](https://img.shields.io/badge/labeled-implicit-green.svg)
 
-- [Eco(Electricity Consumption & Occupancy)](http://vs.inf.ethz.ch/res/show.html?what=eco-data) : The ECO data set is a comprehensive data set for non-intrusive load monitoring and occupancy detection research. It was collected in 6 Swiss households over a period of 8 months. For each of the households, the ECO data set provides
+- [Eco(Electricity Consumption & Occupancy)](https://github.com/makinarocks/awesome-industrial-machine-datasets/blob/minkyu/data-explanation/ECO%20dataset/README.md) : The ECO data set is a comprehensive data set for non-intrusive load monitoring and occupancy detection research. It was collected in 6 Swiss households over a period of 8 months. For each of the households, the ECO data set provides
 
   ![](https://img.shields.io/badge/sector-power-lightblue.svg)
   ![](https://img.shields.io/badge/labeled-yes-blue.svg)
   ![](https://img.shields.io/badge/time--series-yes-blue.svg)  
 
-- [UK ERC dataset](http://jack-kelly.com/data/) : This dataset records the power demand from five houses. In each house we record both the whole-house mains power demand every six seconds as well as power demand from individual appliances every six seconds. In three of the five houses (houses 1, 2 and 5) we also record the whole-house voltage and current at 16 kHz.
+- [UK ERC dataset](https://github.com/makinarocks/awesome-industrial-machine-datasets/blob/minkyu/data-explanation/UK%20ERC%20dataset/README.md) : This dataset records the power demand from five houses. In each house we record both the whole-house mains power demand every six seconds as well as power demand from individual appliances every six seconds. In three of the five houses (houses 1, 2 and 5) we also record the whole-house voltage and current at 16 kHz.
 
   ![](https://img.shields.io/badge/sector-power-lightblue.svg)
   ![](https://img.shields.io/badge/labeled-yes-blue.svg)
@@ -171,16 +171,3 @@
   [IDA2016 Challenge: Chanllenge on this dataset](https://archive.ics.uci.edu/ml/datasets/IDA2016Challenge)  
   ![](https://img.shields.io/badge/competition-gray.svg)
   ![](https://img.shields.io/badge/scoring_and_ranking-gray.svg)
-
-
-
-
-
-
-
-
-
-
-
-
-
