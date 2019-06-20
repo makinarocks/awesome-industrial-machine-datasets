@@ -25,7 +25,7 @@ There is no distinction between training data and test data in the data file.
 
 | Number of Instances | Number of Attributes | Number of Missing Values(NaN) in secom.data |
 | ------------------- | -------------------- | ------------------------------------------- |
-| 1567                | 590                  | 41951(1567 by 590 matrix 중에서 NA 수)      |
+| 1567                | 590                  | 41951(# of NA in 1567 by 590 matrix)        |
 
 - \# of each class    
 
