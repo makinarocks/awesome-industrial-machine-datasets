@@ -1,6 +1,4 @@
-# Appliances energy prediction Data Set
-
-[data](https://archive.ics.uci.edu/ml/datasets/Appliances+energy+prediction)
+## [Appliances energy prediction Data Set](https://archive.ics.uci.edu/ml/datasets/Appliances+energy+prediction)
 
 11.4MB
 

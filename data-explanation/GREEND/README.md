@@ -1,6 +1,4 @@
-## GreenD: Energy metering data set
-
-[data](https://sourceforge.net/projects/greend/)
+## [GreenD: Energy metering data set](https://sourceforge.net/projects/greend/)
 
 1.8GB (compressed)
 

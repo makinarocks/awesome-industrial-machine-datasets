@@ -1,6 +1,4 @@
-# Condition Based Maintenance of Naval Propulsion Systems
-
-[data](https://archive.ics.uci.edu/ml/datasets/Condition+Based+Maintenance+of+Naval+Propulsion+Plants#)
+## [Condition Based Maintenance of Naval Propulsion Systems](https://archive.ics.uci.edu/ml/datasets/Condition+Based+Maintenance+of+Naval+Propulsion+Plants#)
 
 567.1KB (compressed)
 

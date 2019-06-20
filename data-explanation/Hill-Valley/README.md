@@ -1,6 +1,4 @@
-# Hill-Valley Data Set
-
-[data](https://archive.ics.uci.edu/ml/datasets/Hill-Valley)    
+## [Hill-Valley Data Set](https://archive.ics.uci.edu/ml/datasets/Hill-Valley)
 
 Hill_Valley_with_noise_Training.data (417.4KB)
 Hill_Valley_with_noise_Testing.data (420.9KB)

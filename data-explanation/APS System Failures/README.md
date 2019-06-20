@@ -1,6 +1,4 @@
-# APS Failure at Scania Trucks Data Set
-
-[data](https://archive.ics.uci.edu/ml/datasets/APS+Failure+at+Scania+Trucks)
+## [APS Failure at Scania Trucks Data Set](https://archive.ics.uci.edu/ml/datasets/APS+Failure+at+Scania+Trucks)
 
 aps_failure_test_set.csv : 11.9MB (16,000)
 
