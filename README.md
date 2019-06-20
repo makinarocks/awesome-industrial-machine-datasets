@@ -8,9 +8,9 @@
 
 
 
-A list of awesome-public-datasets found in the industry and their descriptions are shown below. The data and its description will be updated periodically.             
+A list of awesome-public-datasets found in the industry and their descriptions are shown below. Clicking the link will take you to the data description page. The data and its description will be updated periodically.                 
 
-## Contributors  
+## Contributors   
 
 - Sehee Lee (sehee.lee@makinarocks.ai)        
 - Minkyu Jeon (jskstar12@makinarocks.ai)         
