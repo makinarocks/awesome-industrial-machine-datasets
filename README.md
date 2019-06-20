@@ -1,6 +1,19 @@
  
 
-# Awesome Industrial Machine Datasets
+# Awesome Public Industrial Datasets     
+
+
+
+![](img/MakinaRocks_Violet_1.png)   
+
+
+
+A list of awesome-public-datasets found in the industry and their descriptions are shown below. The data and its description will be updated periodically.             
+
+## Contributors  
+
+- Sehee Lee (sehee.lee@makinarocks.ai)        
+- Minkyu Jeon (jskstar12@makinarocks.ai)         
 
 ## Tags
 
@@ -42,11 +55,11 @@
 - [PHM Data Challenge 18](<https://github.com/makinarocks/awesome-industrial-machine-datasets/tree/master/data-explanation/PHM Data Challenge 18>): Etching tool fault detection (PdM).  
   ![](https://img.shields.io/badge/sector-semicon-blue.svg)
   ![](https://img.shields.io/badge/labeled-yes-blue.svg)
-  ![](https://img.shields.io/badge/time--series-yes-blue.svg)![](<https://img.shields.io/badge/simulation-no-red.svg>)   
+  ![](https://img.shields.io/badge/time--series-yes-blue.svg) ![](<https://img.shields.io/badge/simulation-no-red.svg>)   
 - [SECOM](<https://github.com/makinarocks/awesome-industrial-machine-datasets/tree/master/data-explanation/SECOM>): Semiconductor manufacturing process data.  
   ![](https://img.shields.io/badge/sector-semicon-blue.svg)
   ![](https://img.shields.io/badge/labeled-yes-blue.svg)
-  ![](https://img.shields.io/badge/time--series-yes-blue.svg)![](<https://img.shields.io/badge/simulation-no-red.svg>)   
+  ![](https://img.shields.io/badge/time--series-yes-blue.svg) ![](<https://img.shields.io/badge/simulation-no-red.svg>)   
   ![](https://img.shields.io/badge/feature_selection-gray.svg)
 
 ### Chemical  
@@ -54,31 +67,31 @@
 - [Gas Sensor Array Drift](<https://github.com/makinarocks/awesome-industrial-machine-datasets/tree/master/data-explanation/Gas Sensor Array Drift>): This archive contains 13910 measurements from 16 chemical sensors exposed to 6 different gases at various concentration levels.  
   ![](https://img.shields.io/badge/sector-chemical-red.svg)
   ![](https://img.shields.io/badge/labeled-yes-blue.svg)
-  ![](https://img.shields.io/badge/time--series-yes-blue.svg)![](<https://img.shields.io/badge/simulation-yes-blue.svg>)   
+  ![](https://img.shields.io/badge/time--series-yes-blue.svg) ![](<https://img.shields.io/badge/simulation-yes-blue.svg>)   
 - [Chemical Detection Platform](<https://github.com/makinarocks/awesome-industrial-machine-datasets/tree/master/data-explanation/Chemical Detection Platform>): The dataset contains 18000 time-series recordings from a chemical detection platform at six different locations in a wind tunnel facility in response to ten high-priority chemical gaseous substances.   
   ![](https://img.shields.io/badge/sector-chemical-red.svg)
   ![](https://img.shields.io/badge/labeled-yes-blue.svg)
-  ![](https://img.shields.io/badge/time--series-yes-blue.svg)![](<https://img.shields.io/badge/simulation-yes-blue.svg>)   
+  ![](https://img.shields.io/badge/time--series-yes-blue.svg) ![](<https://img.shields.io/badge/simulation-yes-blue.svg>)   
 - [Dynamic Gas Mixtures](<https://github.com/makinarocks/awesome-industrial-machine-datasets/tree/master/data-explanation/Dynamic Gas Mixtures>): The data set contains the recordings of 16 chemical sensors exposed to two dynamic gas mixtures at varying concentrations. For each mixture, signals were acquired continuously during 12 hours.     
   ![](https://img.shields.io/badge/sector-chemical-red.svg)
   ![](https://img.shields.io/badge/labeled-yes-blue.svg)
-  ![](https://img.shields.io/badge/time--series-yes-blue.svg)![](<https://img.shields.io/badge/simulation-yes-blue.svg>)  
+  ![](https://img.shields.io/badge/time--series-yes-blue.svg) ![](<https://img.shields.io/badge/simulation-yes-blue.svg>)  
 
 ### Mechanical
 
 - [C-MAPSS](<https://github.com/makinarocks/awesome-industrial-machine-datasets/tree/master/data-explanation/C-MAPSS>): Engine degradation simulation.  
   ![](https://img.shields.io/badge/sector-mechanical-purple.svg)
   ![](https://img.shields.io/badge/labeled-implicit-green.svg)
-  ![](https://img.shields.io/badge/time--series-yes-blue.svg)![](<https://img.shields.io/badge/simulation-yes-blue.svg>)    
+  ![](https://img.shields.io/badge/time--series-yes-blue.svg) ![](<https://img.shields.io/badge/simulation-yes-blue.svg>)    
   ![](https://img.shields.io/badge/time--to--failure-gray.svg)  
   [PHM08: Challenge on this dataset](<https://github.com/makinarocks/awesome-industrial-machine-datasets/tree/master/data-explanation/PHM08 Challenge on this dataset>)  
   ![](https://img.shields.io/badge/competition-gray.svg)
-  ![](https://img.shields.io/badge/scoring_and_ranking-gray.svg)![](<https://img.shields.io/badge/simulation-yes-blue.svg>)   
+  ![](https://img.shields.io/badge/scoring_and_ranking-gray.svg) ![](<https://img.shields.io/badge/simulation-yes-blue.svg>)   
 
 - [CNC Mill Tool Wear](<https://github.com/makinarocks/awesome-industrial-machine-datasets/tree/master/data-explanation/CNC Mill Tool Wear>): Machining data was collected from a CNC machine for variations of tool condition, feed rate, and clamping pressure.  
   ![](https://img.shields.io/badge/sector-mechanical-purple.svg)
   ![](https://img.shields.io/badge/labeled-meta--only-yellow.svg)
-  ![](https://img.shields.io/badge/time--series-yes-blue.svg)![](<https://img.shields.io/badge/simulation-yes-blue.svg>)     
+  ![](https://img.shields.io/badge/time--series-yes-blue.svg) ![](<https://img.shields.io/badge/simulation-yes-blue.svg>)     
   ![](https://img.shields.io/badge/tool_wear_detection-gray.svg)
   ![](https://img.shields.io/badge/detection_of_inadequate_clamping-gray.svg)
 
@@ -89,7 +102,7 @@
   
 - [PHM Data Challenge 17](<https://github.com/makinarocks/awesome-industrial-machine-datasets/tree/master/data-explanation/PHM Data Challenge 17>): predict faulty regimes of operation of a train car using the data provided and physics-based modeling methods.   
 
-   ![](https://img.shields.io/badge/sector-mechanical-purple.svg)![](https://img.shields.io/badge/labeled-implicit-green.svg)
+   ![](https://img.shields.io/badge/sector-mechanical-purple.svg) ![](https://img.shields.io/badge/labeled-implicit-green.svg)
 ![](https://img.shields.io/badge/time--series-yes-blue.svg) ![](<https://img.shields.io/badge/simulation-yes-blue.svg>)     
 
 
@@ -133,11 +146,11 @@
 
 - [BLUED dataset](<https://github.com/makinarocks/awesome-industrial-machine-datasets/tree/master/data-explanation/BLUE dataset>) :  The dataset consists of voltage and current measurements for a single-family residence in the United States, sampled at 12 kHz for a whole week.      
 
-  ![](https://img.shields.io/badge/sector-power-lightblue.svg)  ![](https://img.shields.io/badge/labeled-yes-blue.svg)![](https://img.shields.io/badge/time--series-yes-blue.svg)       
+  ![](https://img.shields.io/badge/sector-power-lightblue.svg)  ![](https://img.shields.io/badge/labeled-yes-blue.svg) ![](https://img.shields.io/badge/time--series-yes-blue.svg)       
 
 - [REDD: A Public Data Set for Energy Disaggregation Research](<https://github.com/makinarocks/awesome-industrial-machine-datasets/tree/master/data-explanation/REDD>):  A freely available data set containing detailed power usage information from several homes, which is aimed at furthering research on energy disaggregation (the task of determining the component appliance contributions from an aggregated electricity signal)        
 
-  ![](https://img.shields.io/badge/sector-power-lightblue.svg) ![](https://img.shields.io/badge/labeled-yes-blue.svg)![](https://img.shields.io/badge/time--series-yes-blue.svg)       
+  ![](https://img.shields.io/badge/sector-power-lightblue.svg) ![](https://img.shields.io/badge/labeled-yes-blue.svg) ![](https://img.shields.io/badge/time--series-yes-blue.svg)       
 
 ### Battery  
 
