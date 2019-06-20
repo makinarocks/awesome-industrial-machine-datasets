@@ -69,7 +69,7 @@ __Test data__
 
 - The test data consists of 5 csv files. It consists of 7,198,948 rows and consists of 24 columns.      
 
-####  Data challenge의 task(Purpose)      
+####  Purpose of Data Challenge        
 
 The purpose of this PHM data challenge is as follows.   
 
