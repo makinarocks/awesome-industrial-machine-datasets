@@ -41,7 +41,7 @@ A list of awesome-public-datasets found in the industry and their descriptions a
 
 - Simulation   
 
-  ![](<https://img.shields.io/badge/simulation-yes-blue.svg>)![](<https://img.shields.io/badge/simulation-no-red.svg>)     
+  ![](<https://img.shields.io/badge/simulation-yes-blue.svg>) ![](<https://img.shields.io/badge/simulation-no-red.svg>)     
 
 ## List of Datasets
 
