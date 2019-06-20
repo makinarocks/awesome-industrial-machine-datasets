@@ -72,8 +72,8 @@ task : supervised classification on hill-valley
 
 Please refer to the Machine Learning Repository's [citation policy](https://archive.ics.uci.edu/ml/citation_policy.html)
 
->>>**reference**
->>>
->>>https://www.simonwenkel.com/2018/08/19/revisiting_ml_hill_valley_detection.html
->>>
->>>https://www.openml.org/d/1566
+**reference**
+
+https://www.simonwenkel.com/2018/08/19/revisiting_ml_hill_valley_detection.html
+
+https://www.openml.org/d/1566
