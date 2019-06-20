@@ -87,12 +87,10 @@
   ![](https://img.shields.io/badge/labeled-yes-blue.svg)
   ![](https://img.shields.io/badge/time--series-no-red.svg)        
   
-- [PHM Data Challenge 17](): predict faulty regimes of operation of a train car using the data provided and physics-based modeling methods.   
+- [PHM Data Challenge 17](<https://github.com/makinarocks/awesome-industrial-machine-datasets/tree/master/data-explanation/PHM Data Challenge 17>): predict faulty regimes of operation of a train car using the data provided and physics-based modeling methods.   
 
-   ![](https://img.shields.io/badge/sector-mechanical-purple.svg)
-
-  ![](https://img.shields.io/badge/labeled-implicit-green.svg)
-  ![](https://img.shields.io/badge/time--series-yes-blue.svg) ![](<https://img.shields.io/badge/simulation-yes-blue.svg>)     
+   ![](https://img.shields.io/badge/sector-mechanical-purple.svg)![](https://img.shields.io/badge/labeled-implicit-green.svg)
+![](https://img.shields.io/badge/time--series-yes-blue.svg) ![](<https://img.shields.io/badge/simulation-yes-blue.svg>)     
 
 
 ### Steel
