@@ -17,6 +17,7 @@
 * [PHM08: Challenge on this datset](<https://github.com/makinarocks/awesome-industrial-machine-datasets/tree/sehee/data-explanation/PHM08%20Challenge%20on%20this%20dataset>)  
 * [CNC Mill Tool Wear](<https://github.com/makinarocks/awesome-industrial-machine-datasets/tree/sehee/data-explanation/CNC%20Mill%20Tool%20Wear>): Machining data was collected from a CNC machine for variations of tool condition, feed rate, and clamping pressure.  
 * [Naval Propulsion Plants](https://github.com/makinarocks/awesome-industrial-machine-datasets/tree/minkyu/data-explanation/Naval%20Propulsion%20Plants/README.md): Data have been generated from a sophisticated simulator of a Gas Turbines (GT), mounted on a Frigate characterized by a COmbined Diesel eLectric And Gas (CODLAG) propulsion plant type.  
+* [PHM Data Challenge 17](<https://github.com/makinarocks/awesome-industrial-machine-datasets/tree/master/data-explanation/PHM Data Challenge 17>): predict faulty regimes of operation of a train car using the data provided and physics-based modeling methods.   
 
 ### Steel  
 
