@@ -4,16 +4,11 @@
 
 
 
-![](img/MakinaRocks_Violet_1.png)   
+![](img/MakinaRocks_Violet_1.png)     
 
+ 
 
-
-A list of awesome-public-datasets found in the industry and their descriptions are shown below. Clicking the link will take you to the data description page. The data and its description will be updated periodically.                 
-
-## Contributors   
-
-- Sehee Lee (sehee.lee@makinarocks.ai)        
-- Minkyu Jeon (jskstar12@makinarocks.ai)         
+A list of awesome-public-datasets found in the industry and their descriptions are shown below. Clicking the link will take you to the data description page. The data and its description will be updated periodically.                   
 
 ## Tags
 
@@ -186,3 +181,14 @@ A list of awesome-public-datasets found in the industry and their descriptions a
   [IDA2016 Challenge: Chanllenge on this dataset](<https://archive.ics.uci.edu/ml/datasets/IDA2016Challenge>)  
   ![](https://img.shields.io/badge/competition-gray.svg)
   ![](https://img.shields.io/badge/scoring_and_ranking-gray.svg)
+
+
+
+## Contributors   
+
+- Sehee Lee (sehee.lee@makinarocks.ai)        
+- Minkyu Jeon (jskstar12@makinarocks.ai)       
+
+## About Makinarocks  
+
+<http://www.makinarocks.ai/>
