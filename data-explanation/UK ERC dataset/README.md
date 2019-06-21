@@ -1,4 +1,4 @@
-## [UK ERC dataset](http://jack-kelly.com/data/)
+## [UK-DALE dataset](http://jack-kelly.com/data/)
 
 3.5GB(compressed)
 
@@ -18,7 +18,7 @@ One way in which UK-DALE differs from REDD is that UK-DALE includes a set of det
 
 The metadata files are in YAML text file format (YAML is a superset of the JSON format). This metadata describes properties such as the specifications of each appliance; the mains wiring between the meters and between meters and appliances; exactly which measurements are provided by each meter; which room each appliance belongs in etc.
 
-The labels.dat file in each directory is redundant and is only included to provide compatibility with REDD. All data in UK-DALE as of January 2015 are available from the UK Energy Research Council’s Energy Data Centre. The data are also available from www.doc.ic.ac.uk/ ∼ dk3810/data.
+The labels.dat file in each directory is redundant and is only included to provide compatibility with REDD. All data in UK-DALE as of January 2015 are available from the UK Energy Research Council’s Energy Data Centre. 
 
 The latter source will be updated as we collect more data. There are three forms of data in UK-DALE:
 
