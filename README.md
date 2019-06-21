@@ -189,6 +189,6 @@ A list of awesome-public-datasets found in the industry and their descriptions a
 - Sehee Lee (sehee.lee@makinarocks.ai)        
 - Minkyu Jeon (jskstar12@makinarocks.ai)       
 
-## About Makinarocks  
+## About MakinaRocks   
 
 <http://www.makinarocks.ai/>
