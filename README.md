@@ -133,7 +133,7 @@ A list of awesome-public-datasets found in the industry and their descriptions a
   ![](https://img.shields.io/badge/labeled-yes-blue.svg)
   ![](https://img.shields.io/badge/time--series-yes-blue.svg)  
 
-- [UK ERC dataset](<https://github.com/makinarocks/awesome-industrial-machine-datasets/tree/master/data-explanation/UK ERC dataset>) : This dataset records the power demand from five houses. In each house we record both the whole-house mains power demand every six seconds as well as power demand from individual appliances every six seconds. In three of the five houses (houses 1, 2 and 5) we also record the whole-house voltage and current at 16 kHz.     
+- [UK DALE dataset](<https://github.com/makinarocks/awesome-industrial-machine-datasets/tree/master/data-explanation/UK ERC dataset>) : This dataset records the power demand from five houses. In each house we record both the whole-house mains power demand every six seconds as well as power demand from individual appliances every six seconds. In three of the five houses (houses 1, 2 and 5) we also record the whole-house voltage and current at 16 kHz.     
 
   ![](https://img.shields.io/badge/sector-power-lightblue.svg)
   ![](https://img.shields.io/badge/labeled-yes-blue.svg)
