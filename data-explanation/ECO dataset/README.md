@@ -1,6 +1,4 @@
-# ECO dataset
-
-[data](http://vs.inf.ethz.ch/res/show.html?what=eco-data)
+## [ECO dataset](http://vs.inf.ethz.ch/res/show.html?what=eco-data)
 
 ![](https://img.shields.io/badge/sector-power-skyblue.svg) ![](https://img.shields.io/badge/labeled-yes-blue.svg) ![](https://img.shields.io/badge/simulation-no-red.svg)
 

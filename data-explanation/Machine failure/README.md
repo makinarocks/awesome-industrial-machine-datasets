@@ -1,3 +1,2 @@
-# Machine Failure
+# [Machine Failure](https://bigml.com/dashboard/datasets)
 
-[data](https://bigml.com/dashboard/datasets)

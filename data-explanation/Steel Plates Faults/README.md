@@ -1,6 +1,4 @@
-# Steel Plates Faults Data Set
-
-[data](http://archive.ics.uci.edu/ml/datasets/Steel+Plates+Faults)
+## [Steel Plates Faults Data Set](http://archive.ics.uci.edu/ml/datasets/Steel+Plates+Faults)
 
 Faults.NNA : 292KB
 

@@ -1,6 +1,4 @@
-# Combined Cycle Power Plant Data Set
-
-[data](https://archive.ics.uci.edu/ml/datasets/Combined+Cycle+Power+Plant)
+## [Combined Cycle Power Plant Data Set](https://archive.ics.uci.edu/ml/datasets/Combined+Cycle+Power+Plant)
 
 3.5MB(compressed)
 
