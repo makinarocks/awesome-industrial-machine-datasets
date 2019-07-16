@@ -2,7 +2,7 @@
 
 ## [WM-811K(LSWMD)](http://mirlab.org/dataSet/public/)
 
-?? MB
+214 MB
 
 811457 wafer maps, in which each wafer map was collected from real-world fabrication. Domain experts were recruited to annotate the pattern type for approximately 20% of the wafer maps in the WM-811K dataset. This dataset is published by Roger Jang, professor of [MIR lab](http://mirlab.or).
   ![](https://img.shields.io/badge/sector-semicon-blue.svg)
