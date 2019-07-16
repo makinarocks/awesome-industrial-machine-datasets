@@ -60,7 +60,8 @@ A list of awesome-public-datasets found in the industry and their descriptions a
   ![](https://img.shields.io/badge/sector-semicon-blue.svg)
   ![](https://img.shields.io/badge/labeled-yes-blue.svg)
   ![](https://img.shields.io/badge/time--series-no-red.svg)
-  ![](<https://img.shields.io/badge/simulation-no-red.svg>)  
+  ![](<https://img.shields.io/badge/simulation-no-red.svg>)
+
 
 ### Chemical  
 
