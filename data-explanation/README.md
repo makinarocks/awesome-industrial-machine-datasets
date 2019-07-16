@@ -4,7 +4,7 @@
 
 * [PHM Data Challenge 18](<https://github.com/makinarocks/awesome-industrial-machine-datasets/tree/sehee/data-explanation/PHM%20Data%20Challenge%2018>): Etching tool fault detection(PdM).
 * [SECOM](<https://github.com/makinarocks/awesome-industrial-machine-datasets/tree/sehee/data-explanation/SECOM>): Semiconductor manufacturing process data.  
-* [WM-811K(LSWMD) Wafermap](https://github.com/makinarocks/awesome-industrial-machine-datasets/tree/hyeonwoo/data-explanation/WD-811k%20Wafermap): Wafer fault detection data.
+* [WM-811K(LSWMD)](https://github.com/makinarocks/awesome-industrial-machine-datasets/tree/hyeonwoo/data-explanation/WD-811k%20Wafermap): Wafer fault detection & classification data.  
 
 ### Chemical  
 
