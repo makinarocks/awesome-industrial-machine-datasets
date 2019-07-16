@@ -50,7 +50,7 @@
 ### Paper
 1. [Wafer Map Failure Pattern Recognition and Similarity Ranking for Large-Scale Data Sets (2014)](http://ieeexplore.ieee.org/document/6932449/) by Roger Jang, professor of MIR lab
 
-   keywords : 
+   keywords : Feature extraction, Transforms, Support vector machines, Semiconductor device modeling, Pattern recognition, Fabrication
    
 2. [Wafer Defect Detection and Recognition Based on Local and Nonlocal Linear Discriminant Analysis and Dynamic Ensemble of Gaussian Mixture Models (2015)](http://www.aas.net.cn/EN/abstract/abstract18795.shtml)
 
