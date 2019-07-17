@@ -155,17 +155,17 @@ A list of awesome-public-datasets found in the industry and their descriptions a
 
 ### Battery  
 
-- [Experiments on Li-ion batteries](<https://ti.arc.nasa.gov/tech/dash/groups/pcoe/prognostic-data-repository/#battery>): Charging and discharging at different temperatures. Records the impedance as the damage criterion.              
+- [Experiments on Li-ion batteries](<https://github.com/makinarocks/awesome-industrial-machine-datasets/tree/master/data-explanation/Experiments on Li-ion batteries>): Charging and discharging at different temperatures. Records the impedance as the damage criterion.              
 
-  ![](<https://img.shields.io/badge/sector-battery-ff69b4.svg>)     
+   ![](https://img.shields.io/badge/sector-battery-ff69b4.svg)  ![](https://img.shields.io/badge/labeled-no-red.svg)  ![](https://img.shields.io/badge/time--series-yes-blue.svg)  ![](<https://img.shields.io/badge/simulation-no-red.svg>)
 
-- [Panasonic 18650PF Li-ion Battery Data](<https://data.mendeley.com/datasets/wykht8y7tg/1#folder-df7a873b-ae5f-4a63-ab5c-8f9792b59429>)     
+- [Panasonic 18650PF Li-ion Battery Data](<https://github.com/makinarocks/awesome-industrial-machine-datasets/tree/master/data-explanation/Panasonic 18650PF Li-ion Battery Data>)     
 
-  ![](<https://img.shields.io/badge/sector-battery-ff69b4.svg>)     
+   ![](https://img.shields.io/badge/sector-battery-ff69b4.svg)  ![](https://img.shields.io/badge/labeled-no-red.svg)  ![](https://img.shields.io/badge/time--series-yes-blue.svg)  ![](<https://img.shields.io/badge/simulation-no-red.svg>)
 
-- [Cycle Engineering Battery Group](<https://web.calce.umd.edu/batteries/data.htm#undefined>)    
+- [Data-driven prediction of battery cycle life before capacity degradation](<https://github.com/makinarocks/awesome-industrial-machine-datasets/tree/master/data-explanation/Data-driven prediction of battery cycle life before capacity degradation>)    
 
-  ![](<https://img.shields.io/badge/sector-battery-ff69b4.svg>)   
+   ![](https://img.shields.io/badge/sector-battery-ff69b4.svg)  ![](https://img.shields.io/badge/labeled-no-red.svg)  ![](https://img.shields.io/badge/time--series-yes-blue.svg)  ![](<https://img.shields.io/badge/simulation-no-red.svg>)
 
 ### Etc
 
