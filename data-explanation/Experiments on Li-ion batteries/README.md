@@ -10,21 +10,21 @@
 | ------------------------ | ------------------------- | ---------------- |
 | Multivariate             | Real                      | Regression       |
 
-> A set of four Li-ion batteries were run through 3 different operational profiles (charge, discharge and impedance) at room temperature (24 deg C).
->
-> **Charge**
->
-> Charging was carried out in a constant current (CC) mode at 1.5A until the battery voltage reached 4.2V and then continued in a constant voltage (CV) mode until the charge current dropped to 20mA. 
->
-> **Discharge**
->
-> Discharge was carried out using a 0.05Hz square wave loading profile of 4A amplitude and 50% duty cycle until the battery voltage fell to 2.0V, 2.2V, 2.5V and 2.7V for batteries 25, 26, 27 and 28 respectively.
->
-> **Impedance**
->
-> Impedance measurement was carried out through an electrochemical impedance spectroscopy (EIS) frequency sweep from 0.1Hz to 5kHz. 
->
-> #### Variables
+A set of four Li-ion batteries were run through 3 different operational profiles (charge, discharge and impedance) at room temperature (24 deg C).
+
+**Charge**
+
+Charging was carried out in a constant current (CC) mode at 1.5A until the battery voltage reached 4.2V and then continued in a constant voltage (CV) mode until the charge current dropped to 20mA. 
+
+**Discharge**
+
+Discharge was carried out using a 0.05Hz square wave loading profile of 4A amplitude and 50% duty cycle until the battery voltage fell to 2.0V, 2.2V, 2.5V and 2.7V for batteries 25, 26, 27 and 28 respectively.
+
+**Impedance**
+
+Impedance measurement was carried out through an electrochemical impedance spectroscopy (EIS) frequency sweep from 0.1Hz to 5kHz. 
+
+#### Variables
 
 type : operation  type, can be charge, discharge or impedance
 ambient_temperature : ambient temperature (degree C)
