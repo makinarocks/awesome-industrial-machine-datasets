@@ -6,6 +6,8 @@
 
 811457 wafer maps, in which each wafer map was collected from real-world fabrication. Domain experts were recruited to annotate the pattern type for approximately 20% of the wafer maps in the WM-811K dataset. This dataset is published by Roger Jang, professor of [MIR lab](http://mirlab.org/dataSet/public/)
 - [.pkl data](https://www.kaggle.com/qingyi/wm811k-wafer-map)
+
+
   ![](https://img.shields.io/badge/sector-semicon-blue.svg)
   ![](https://img.shields.io/badge/labeled-yes-blue.svg)
   ![](https://img.shields.io/badge/time--series-no-red.svg)
