@@ -3,9 +3,6 @@
 # Awesome Public Industrial Datasets     
 
 
-
-![](img/MakinaRocks_Violet_1.png)     
-
  
 
 A list of awesome-public-datasets found in the industry and their descriptions are shown below. Clicking the link will take you to the data description page. The data and its description will be updated periodically.                   
